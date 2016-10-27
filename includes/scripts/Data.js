@@ -198,6 +198,7 @@ var Data = {
 			title: "Front-end Developer",
 			img: "brian-mamaril",
 			bio: "University of the Cordilleras 2013",
+			skills: [11,12],
 			company: "New Media Services Pty Ltd",
 			sm: {
 				fb: "https://www.facebook.com/empoipalaboi",
@@ -212,6 +213,7 @@ var Data = {
 			title: "",
 			img: "kurt-acosta",
 			bio: "",
+			skills: [0],
 			company: "",
 			sm: {
 				fb: "https://www.facebook.com/kurt.acosta",
