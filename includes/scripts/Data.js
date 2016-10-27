@@ -30,7 +30,7 @@ var Data = {
 		},
 		{ //7
 			name: "Google Chrome",
-			color: "blue white-text" 
+			color: "blue white-text"
 		},
 		{ //8
 			name: "Dart",
@@ -58,66 +58,66 @@ var Data = {
 		}
 	],
 	speakerInfo: [
-		{
-			name: "Brian Tan Seng",
-			title: "CEO of 98Labs, Inc.",
-			img: "brian-tan-seng",
-			bio: "Brian Tan Seng, is a technology entrepreneur and is the co-founder of 1.) 98Labs Inc., a software development company, and 2.) AllServe, the first local prepaid card provider that consolidated gaming and mobile prepaid cards, and 3.) CleverHeat, a hardware startup aiming to harness solar thermal energy to provide refrigeration.<br><br>Aside from technology, Brian is also interested in psychology, startups, ultra running, mountaineering and the arts.",
-			skills: [],
-			company: "98Labs, Inc.",
-			sm: {
-				fb: "https://www.facebook.com/brian.tanseng",
-				tw: "https://twitter.com/briantanseng",
-				gp: "https://plus.google.com/u/1/112174234288825901111",
-				li: "https://www.linkedin.com/in/briantanseng",
-				wb: "",
-			}
-		},
-		{
-			name: "Mete Atamel",
-			title: "Developer Advocate for Google Cloud Platform",
-			img: "mete-atamel",
-			bio: "I'm a Developer Advocate at Google, currently focused on helping developers with Google Cloud Platform. As a long-time Java and a recent C# developer, I like to compare the two ecosystems. Prior to Google, I worked at Microsoft, Skype, Adobe, EMC, and Nokia building apps and services on various web, mobile and cloud platforms. Originally from Cyprus, I currently live in Greenwich, not too far away from the prime meridian.",
-			skills: [1],
-			company: "Google",
-			sm: {
-				fb: "https://www.facebook.com/mete.atamel/",
-				tw: "https://twitter.com/meteatamel/",
-				gp: "https://plus.google.com/+MeteAtamel",
-				li: "https://www.linkedin.com/in/meteatamel/",
-				wb: "https://meteatamel.wordpress.com/",
-			}
-		},
-		{
-			name: "Sami Kizilbash",
-			title: "Developer Relations Program Manager, South & Southeast Asia",
-			img: "sami-kizilbash",
-			bio: "I love media, music, and technology.<br><br>Right out of university I became a media sales consultant at Media Plus Consulting, where I led some fantastic teams in the production and monetization of media products across the EMEA region.<br><br>Being a longtime musician, I later pursued a career in the music trade industry, eventually leading a primary division of a major wholesale distribution firm, servicing online and offline retailers across Canada and the USA. I also recorded two full-length studio albums and performed regularly with my former band, The Darling DeMaes.<br><br>After my MBA, I co-founded Figr, an award-winning technology venture dedicated to enhancing the consumer experience. Based in Singapore, Figr developed a digital receipt solution to replace traditional paper receipts.<br><br>Today I am part of Google's Emerging Markets Team, branching out into the digital media and advertising world in one of the most exciting markets on the map - Pakistan.<br><br>I have a Bachelor of Commerce degree from McGill University and an MBA from INSEAD. I sit on the board of the NGO, INDEVOR (International Development Organization), INSEAD's largest club and affiliate of the worldwide Net Impact Organization dedicated to nurturing socially-responsible business leaders.<br><br>I live in Singapore with my wonderful wife and baby daughter, both remarkably supportive of my wildlife photography, scuba diving, and love for drums.",
-			skills: [],
-			company: "Google",
-			sm: {
-				fb: "",
-				tw: "",
-				gp: "https://plus.google.com/+SamiKizilbash",
-				li: "https://www.linkedin.com/in/samikiz",
-				wb: "",
-			}
-		},
-		{
-			name: "Albert Padin",
-			title: "Co-founder and CTO of Symph",
-			img: "albert-padin",
-			bio: "Albert is a developer and entrepreneur who's worked on consumer, enterprise, and government software products. He is the co-founder and CTO of Symph, a design, development, and startup studio. At Symph, he has architected and developed solutions for 500 Startups, Office of the President of the Philippines, and the World Bank.<br><br>Albert leads a diverse team of developers in creating software solutions. He ensures that the team's output is high quality and performs well at scale. Albert is also passionate about empowering startups and has been involved in the Philippine Startup Ecosystem, by facilitating and mentoring at Startup Weekends and other events.<br><br>Prior to that, Albert started SpellDial, directed plays, and mentored street children. He studied Information Technology at the Centre for International Education Global Colleges. He lives in Cebu City, Philippines with his wife. His interests include theatre, performing arts, and the non-trivial act of eradicating poverty.",
-			skills: [1,2],
-			company: "Symph",
-			sm: {
-				fb: "https://www.facebook.com/albertpadin",
-				tw: "https://twitter.com/albertpadin",
-				gp: "https://plus.google.com/105208952882093749203",
-				li: "https://ph.linkedin.com/in/jpadin",
-				wb: "http://albertpadin.com/"
-			}
-		},
+//		{
+//			name: "Brian Tan Seng",
+//			title: "CEO of 98Labs, Inc.",
+//			img: "brian-tan-seng",
+//			bio: "Brian Tan Seng, is a technology entrepreneur and is the co-founder of 1.) 98Labs Inc., a software development company, and 2.) AllServe, the first local prepaid card provider that consolidated gaming and mobile prepaid cards, and 3.) CleverHeat, a hardware startup aiming to harness solar thermal energy to provide refrigeration.<br><br>Aside from technology, Brian is also interested in psychology, startups, ultra running, mountaineering and the arts.",
+//			skills: [],
+//			company: "98Labs, Inc.",
+//			sm: {
+//				fb: "https://www.facebook.com/brian.tanseng",
+//				tw: "https://twitter.com/briantanseng",
+//				gp: "https://plus.google.com/u/1/112174234288825901111",
+//				li: "https://www.linkedin.com/in/briantanseng",
+//				wb: "",
+//			}
+//		},
+//		{
+//			name: "Mete Atamel",
+//			title: "Developer Advocate for Google Cloud Platform",
+//			img: "mete-atamel",
+//			bio: "I'm a Developer Advocate at Google, currently focused on helping developers with Google Cloud Platform. As a long-time Java and a recent C# developer, I like to compare the two ecosystems. Prior to Google, I worked at Microsoft, Skype, Adobe, EMC, and Nokia building apps and services on various web, mobile and cloud platforms. Originally from Cyprus, I currently live in Greenwich, not too far away from the prime meridian.",
+//			skills: [1],
+//			company: "Google",
+//			sm: {
+//				fb: "https://www.facebook.com/mete.atamel/",
+//				tw: "https://twitter.com/meteatamel/",
+//				gp: "https://plus.google.com/+MeteAtamel",
+//				li: "https://www.linkedin.com/in/meteatamel/",
+//				wb: "https://meteatamel.wordpress.com/",
+//			}
+//		},
+//		{
+//			name: "Sami Kizilbash",
+//			title: "Developer Relations Program Manager, South & Southeast Asia",
+//			img: "sami-kizilbash",
+//			bio: "I love media, music, and technology.<br><br>Right out of university I became a media sales consultant at Media Plus Consulting, where I led some fantastic teams in the production and monetization of media products across the EMEA region.<br><br>Being a longtime musician, I later pursued a career in the music trade industry, eventually leading a primary division of a major wholesale distribution firm, servicing online and offline retailers across Canada and the USA. I also recorded two full-length studio albums and performed regularly with my former band, The Darling DeMaes.<br><br>After my MBA, I co-founded Figr, an award-winning technology venture dedicated to enhancing the consumer experience. Based in Singapore, Figr developed a digital receipt solution to replace traditional paper receipts.<br><br>Today I am part of Google's Emerging Markets Team, branching out into the digital media and advertising world in one of the most exciting markets on the map - Pakistan.<br><br>I have a Bachelor of Commerce degree from McGill University and an MBA from INSEAD. I sit on the board of the NGO, INDEVOR (International Development Organization), INSEAD's largest club and affiliate of the worldwide Net Impact Organization dedicated to nurturing socially-responsible business leaders.<br><br>I live in Singapore with my wonderful wife and baby daughter, both remarkably supportive of my wildlife photography, scuba diving, and love for drums.",
+//			skills: [],
+//			company: "Google",
+//			sm: {
+//				fb: "",
+//				tw: "",
+//				gp: "https://plus.google.com/+SamiKizilbash",
+//				li: "https://www.linkedin.com/in/samikiz",
+//				wb: "",
+//			}
+//		},
+//		{
+//			name: "Albert Padin",
+//			title: "Co-founder and CTO of Symph",
+//			img: "albert-padin",
+//			bio: "Albert is a developer and entrepreneur who's worked on consumer, enterprise, and government software products. He is the co-founder and CTO of Symph, a design, development, and startup studio. At Symph, he has architected and developed solutions for 500 Startups, Office of the President of the Philippines, and the World Bank.<br><br>Albert leads a diverse team of developers in creating software solutions. He ensures that the team's output is high quality and performs well at scale. Albert is also passionate about empowering startups and has been involved in the Philippine Startup Ecosystem, by facilitating and mentoring at Startup Weekends and other events.<br><br>Prior to that, Albert started SpellDial, directed plays, and mentored street children. He studied Information Technology at the Centre for International Education Global Colleges. He lives in Cebu City, Philippines with his wife. His interests include theatre, performing arts, and the non-trivial act of eradicating poverty.",
+//			skills: [1,2],
+//			company: "Symph",
+//			sm: {
+//			fb: "https://www.facebook.com/albertpadin",
+//				tw: "https://twitter.com/albertpadin",
+//				gp: "https://plus.google.com/105208952882093749203",
+//				li: "https://ph.linkedin.com/in/jpadin",
+//				wb: "http://albertpadin.com/"
+//			}
+//		},
 		{
 			name: "Chelle Obligacion Gray",
 			title: "Community Manager, Google APAC",
@@ -132,21 +132,21 @@ var Data = {
 				ws: ""
 			}
 		},
-		{
-			name: "Ben Adrian Sarmiento",
-			title: "Associate Manager in Accenture",
-			img: "ben-adrian-sarmiento",
-			bio: "Ben spends most of his time creating apps for Google Cloud Platform. Internet is oxygen to him.",
-			skills: [1],
-			company: "Accenture",
-			sm: {
-				fb: "https://www.facebook.com/bensarmiento",
-				tw: "https://twitter.com/bensarmiento",
-				gp: "https://plus.google.com/+BenAdrianSarmientoDev",
-				li: "https://ph.linkedin.com/in/bensarmiento",
-				wb: "https://bensarmiento.com/"
-			}
-		},
+//		{
+//			name: "Ben Adrian Sarmiento",
+//			title: "Associate Manager in Accenture",
+//			img: "ben-adrian-sarmiento",
+//			bio: "Ben spends most of his time creating apps for Google Cloud Platform. Internet is oxygen to him.",
+//			skills: [1],
+//			company: "Accenture",
+//			sm: {
+//				fb: "https://www.facebook.com/bensarmiento",
+//				tw: "https://twitter.com/bensarmiento",
+//				gp: "https://plus.google.com/+BenAdrianSarmientoDev",
+//				li: "https://ph.linkedin.com/in/bensarmiento",
+//				wb: "https://bensarmiento.com/"
+//			}
+//		},
 		{
 			name: "Reymart Canuel",
 			title: "Community Manager, Google Developer Group Baguio",
@@ -163,59 +163,44 @@ var Data = {
 			}
 		},
 		{
-			name: "Ralph Regalado",
-			title: "Community Manager, Google Developer Group Philippines",
-			img: "ralph-regalado",
-			bio: "Ralph Vincent Regalado is one of the Community Managers of GDG Philippines. He is also the CEO and Founder of SENTi, a tech startup that analyzes sentiments and conversations in social media. He is a professor, and a Natural Language Processing researcher at De La Salle University, Manila. His research works were presented not only in local but also in international conferences hosted in China, Japan, Vietnam, Indonesia and the United States. When he is not at work, he spends his time travelling and hiking mountains.",
-			skills: [13],
-			company: "GDG Philippines",
+			name: "Anton Raphael Orpilla",
+			title: "Solutions Architect, Consultant & University Lecturer",
+			img: "anton-orpilla",
+			bio: "\"Manong Antawn\" has been an ICT practitioner for 10 Years+ in various Industries (Banking, Government, Telecommunications, Energy & Utilities, & Others). During his free time (outside consultation work), he conducts Workshops and Seminars for ICT Community Events and University Partners about various ICT Topics covering Service Oriented Architecture (SOA), Business Process Management (BPM), Mobile Development, Big Data/Analytics, Security, Cloud Computing, Game Development, and others. He also participates actively in Hackathons, Open Source Product Development and collaborates during ICT Community Meet-ups. His favorite genre in music is Reggae and music artist is Bob Marley.",
+			skills: [3],
+			company: "",
 			sm: {
-				fb: "https://www.facebook.com/regalandroid",
-				tw: "https://twitter.com/regalandroid",
-				gp: "https://plus.google.com/+RalphVincentRegalado/",
-				li: "https://ph.linkedin.com/in/rvregalado",
-				wb: "http://ralphregalado.com/"
+				fb: "https://www.facebook.com/anton.raphael.orpilla",
+				tw: "",
+				gp: "https://plus.google.com/+AntonRaphaelOrpilla",
+				li: "",
+				wb: ""
 			}
 		},
 		{
-			name: "Jomar Tigcal",
-			title: "Android Developer, Trainer, and Consultant",
-			img: "jomar-tigcal",
-			bio: "Jomar Tigcal is an Android Developer, Trainer, and Consultant. As one of the community Managers of GDG Philippines, he is giving talks and facilitating Android Workshops. He has also conducted Android trainings to schools and other developers.<br><br>On his free time, he is developing personal applications using Android and other technologies, like Sweldong Pinoy. He has published Android Apps on Google Play Store.",
-			skills: [0],
-			company: "GDG Philippines",
+			name: "Reymark Matabang",
+			title: "IT Educator, Freelance Web Developer",
+			img: "reymark-matabang",
+			bio: "Reymark Matabang is an IT Educator at STI College Baguio, He also a freelance Web Developer. ",
+			skills: [5],
+			company: "STI College Baguio",
 			sm: {
-				fb: "https://www.facebook.com/jomartigcal",
-				tw: "https://twitter.com/jomartigcal",
-				gp: "https://plus.google.com/+JomarTigcal",
-				li: "https://ph.linkedin.com/in/jomartigcal",
-				wb: "http://www.tigcal.com/"
+				fb: "https://www.facebook.com/rmmjava",
+				tw: "",
+				gp: "https://plus.google.com/u/1/+ReymarkMatabang",
+				li: "",
+				wb: ""
 			}
 		},
+
 		{
-			name: "Benj Tupas",
-			title: "Founder & CEO of FunBuddies",
-			img: "benj-tupas",
-			bio: "Benj is the Founder/CEO of FunBuddies. He loves technology, business, books, and travel/adventure.",
-			skills: [0,1,2],
-			company: "FunBuddies",
+			name: "Brian Matthew Mamaril",
+			title: "Front-end Developer",
+			img: "brian-mamaril",
+			bio: "University of the Cordilleras 2013",
+			company: "New Media Services Pty Ltd",
 			sm: {
-				fb: "https://www.facebook.com/profile.php?id=100000195150265",
-				tw: "https://twitter.com/benj_tupas",
-				gp: "https://plus.google.com/+BenjTupas0420",
-				li: "https://ph.linkedin.com/in/benjtupas",
-				wb: "http://www.benjtupas.com/"
-			}
-		},
-		{
-			name: "Mac Valmores",
-			title: "Freelance Developer",
-			img: "mac-valmores",
-			bio: "Conducts free android tutorials for the Philippine Android Developers Community. Worked with Project Noah for Moses Tablet. Worked on customizing tablets. ",
-			skills: [0],
-			company: "Philippine Android Developers Community",
-			sm: {
-				fb: "https://www.facebook.com/mac.valmores",
+				fb: "https://www.facebook.com/empoipalaboi",
 				tw: "",
 				gp: "",
 				li: "",
@@ -223,20 +208,94 @@ var Data = {
 			}
 		},
 		{
-			name: "Joyce Guiao",
-			title: "Freelancer",
-			img: "joyce-guiao",
-			bio: "She graduated BS Computer Science at De La Salle University and is currently working as a freelancer. She won various hackathons and developer contests which includes Microsoft Image Cup - Innovation World Finalist (2014), Kabantay ng Bayan Champion (2014), DOST-FNRI Less Sugar Champion (2014) and DOST Mobile App Competition on Disaster Communication 2nd Runnerup (2014). Oh wait download her Android App <a href=\"https://play.google.com/store/apps/details?id=com.matchagames.setmania\" target=\"_blank\">here</a>",
-			skills: [0,2],
-			company: "Android Freelancer",
+			name: "Kurt Renzo Acosta",
+			title: "",
+			img: "kurt-acosta",
+			bio: "",
+			company: "",
 			sm: {
-				fb: "https://www.facebook.com/2sleepy2online",
-				tw: "https://twitter.com/juicecow",
-				gp: "https://plus.google.com/112701448726137386362",
+				fb: "https://www.facebook.com/kurt.acosta",
+				tw: "",
+				gp: "",
 				li: "",
 				wb: ""
 			}
 		},
+//		{
+//			name: "Ralph Regalado",
+//			title: "Community Manager, Google Developer Group Philippines",
+//			img: "ralph-regalado",
+//			bio: "Ralph Vincent Regalado is one of the Community Managers of GDG Philippines. He is also the CEO and Founder of SENTi, a tech startup that analyzes sentiments and conversations in social media. He is a professor, and a Natural Language Processing researcher at De La Salle University, Manila. His research works were presented not only in local but also in international conferences hosted in China, Japan, Vietnam, Indonesia and the United States. When he is not at work, he spends his time travelling and hiking mountains.",
+//			skills: [13],
+//			company: "GDG Philippines",
+//			sm: {
+//				fb: "https://www.facebook.com/regalandroid",
+//				tw: "https://twitter.com/regalandroid",
+//				gp: "https://plus.google.com/+RalphVincentRegalado/",
+//				li: "https://ph.linkedin.com/in/rvregalado",
+//				wb: "http://ralphregalado.com/"
+//			}
+//		},
+//		{
+//			name: "Jomar Tigcal",
+//			title: "Android Developer, Trainer, and Consultant",
+//			img: "jomar-tigcal",
+//			bio: "Jomar Tigcal is an Android Developer, Trainer, and Consultant. As one of the community Managers of GDG Philippines, he is giving talks and facilitating Android Workshops. He has also conducted Android trainings to schools and other developers.<br><br>On his free time, he is developing personal applications using Android and other technologies, like Sweldong Pinoy. He has published Android Apps on Google Play Store.",
+//			skills: [0],
+//			company: "GDG Philippines",
+//			sm: {
+//				fb: "https://www.facebook.com/jomartigcal",
+//				tw: "https://twitter.com/jomartigcal",
+//				gp: "https://plus.google.com/+JomarTigcal",
+//				li: "https://ph.linkedin.com/in/jomartigcal",
+//				wb: "http://www.tigcal.com/"
+//			}
+//		},
+//		{
+//			name: "Benj Tupas",
+//			title: "Founder & CEO of FunBuddies",
+//			img: "benj-tupas",
+//			bio: "Benj is the Founder/CEO of FunBuddies. He loves technology, business, books, and travel/adventure.",
+//			skills: [0,1,2],
+//			company: "FunBuddies",
+//			sm: {
+//				fb: "https://www.facebook.com/profile.php?id=100000195150265",
+//				tw: "https://twitter.com/benj_tupas",
+//				gp: "https://plus.google.com/+BenjTupas0420",
+//				li: "https://ph.linkedin.com/in/benjtupas",
+//				wb: "http://www.benjtupas.com/"
+//			}
+//		},
+//		{
+//			name: "Mac Valmores",
+//			title: "Freelance Developer",
+//			img: "mac-valmores",
+//			bio: "Conducts free android tutorials for the Philippine Android Developers Community. Worked with Project Noah for Moses Tablet. Worked on customizing tablets. ",
+//			skills: [0],
+//			company: "Philippine Android Developers Community",
+//			sm: {
+//				fb: "https://www.facebook.com/mac.valmores",
+//				tw: "",
+//				gp: "",
+//				li: "",
+//				wb: ""
+//			}
+//		},
+//	{
+//			name: "Joyce Guiao",
+//			title: "Freelancer",
+//			img: "joyce-guiao",
+//			bio: "She graduated BS Computer Science at De La Salle University and is currently working as a freelancer. She won various hackathons and developer contests which includes Microsoft Image Cup - Innovation World Finalist (2014), Kabantay ng Bayan Champion (2014), DOST-FNRI Less Sugar Champion (2014) and DOST Mobile App Competition on Disaster Communication 2nd Runnerup (2014). Oh wait download her Android App <a href=\"https://play.google.com/store/apps/details?id=com.matchagames.setmania\" target=\"_blank\">here</a>",
+//			skills: [0,2],
+//			company: "Android Freelancer",
+//			sm: {
+//				fb: "https://www.facebook.com/2sleepy2online",
+//				tw: "https://twitter.com/juicecow",
+//				gp: "https://plus.google.com/112701448726137386362",
+//				li: "",
+//				wb: ""
+//			}
+//		},
 		// {
 		// 	name: "Jielynn Diroy",
 		// 	title: "Software Engineer",
@@ -252,66 +311,66 @@ var Data = {
 		// 		wb: ""
 		// 	}
 		// },
-		{
-			name: "Toni-Jan Keith Monserrat",
-			title: "Front-end Web Developer",
-			img: "toni-jan-keith-monserrat",
-			bio: "Tatay, teacher, student, HCI researcher and Front-end web developer. His goal is to promote that we can make creative and effective interventions by thinking in-the-shoes of your users... creating good design...",
-			skills: [11,12],
-			company: "HCI Researcher",
-			sm: {
-				fb: "https://www.facebook.com/tjmonsi",
-				tw: "",
-				gp: "",
-				li: "https://ph.linkedin.com/in/toni-jan-keith-monserrat-42975341",
-				wb: ""
-			}
-		},
-		{
-			name: "Wayne Manuel",
-			title: "Software Developer, National Telehealth Center UP Manila",
-			img: "wayne-manuel",
-			bio: "Wayne Manuel is a software developer at the National Telehealth Center of the University of the Philippines Manila.",
-			skills: [11,12],
-			company: "National Telehealth Center UP Manila",
-			sm: {
-				fb: "",
-				tw: "",
-				gp: "",
-				li: "",
-				wb: ""
-			}
-		},
-		{
-			name: "Adrian Vincent Tayag",
-			title: "VR Enthusiast",
-			img: "adrian-vincent-tayag",
-			bio: "Adrian Tayag is a VR enthusiast that is currently a 3rd year BS Electrical Engineering student at University of the Philippines Los Baños. He is one of the core organizers of VR Philippines and is also leading a VR student organization in UPLB namely VISIV-UPLB, which aims to spread awareness about VR’s relevance in every field that UPLB is currently offering.",
-			skills: [6],
-			company: "VR Enthusiast",
-			sm: {
-				fb: "https://www.facebook.com/AdrianTayag",
-				tw: "",
-				gp: "",
-				li: "",
-				ws: ""
-			}
-		},
-		{
-			name: "Cristopher David",
-			title: "VR Evangelist and Developer",
-			img: "cristopher-david",
-			bio: "Toph is a VR Evangelist and Developer. He works as an R&D Engineer at Nokia by day but leads a double life in the metaverse. He co-founded VR Philippines to boost the local VR community and possibly help put the Philippines in the forefront of this exciting technological revolution. He is currently setting up his own VR startup, Veer, which aims to bring virtual reality to everyone. He also serves as the Board Member for VR at ACM SIGGRAPH Manila.",
-			skills: [6],
-			company: "VR Enthusiast",
-			sm: {
-				fb: "https://www.facebook.com/tophoftheworld",
-				tw: "",
-				gp: "",
-				li: "https://www.linkedin.com/in/davidcristopher",
-				ws: ""
-			}
-		}
+//		{
+	//		name: "Toni-Jan Keith Monserrat",
+	//		title: "Front-end Web Developer",
+	//		img: "toni-jan-keith-monserrat",
+		//	bio: "Tatay, teacher, student, HCI researcher and Front-end web developer. His goal is to promote that we can make creative and effective interventions by thinking in-the-shoes of your users... creating good design...",
+		//	skills: [11,12],
+	//		company: "HCI Researcher",
+	//		sm: {
+		//		fb: "https://www.facebook.com/tjmonsi",
+		//		tw: "",
+		//		gp: "",
+		//		li: "https://ph.linkedin.com/in/toni-jan-keith-monserrat-42975341",
+		//		wb: ""
+		//	}
+	//	},
+//		{
+//			name: "Wayne Manuel",
+//			title: "Software Developer, National Telehealth Center UP Manila",
+//			img: "wayne-manuel",
+//		bio: "Wayne Manuel is a software developer at the National Telehealth Center of the University of the Philippines Manila.",
+//			skills: [11,12],
+//		company: "National Telehealth Center UP Manila",
+//			sm: {
+//				fb: "",
+//				tw: "",
+//				gp: "",
+//				li: "",
+//				wb: ""
+//			}
+//		},
+//		{
+//			name: "Adrian Vincent Tayag",
+//			title: "VR Enthusiast",
+//			img: "adrian-vincent-tayag",
+//			bio: "Adrian Tayag is a VR enthusiast that is currently a 3rd year BS Electrical Engineering student at University of the Philippines Los Baños. He is one of the core organizers of VR Philippines and is also leading a VR student organization in UPLB namely VISIV-UPLB, which aims to spread awareness about VR’s relevance in every field that UPLB is currently offering.",
+//			skills: [6],
+//			company: "VR Enthusiast",
+//			sm: {
+//				fb: "https://www.facebook.com/AdrianTayag",
+//				tw: "",
+//				gp: "",
+//				li: "",
+//				ws: ""
+//			}
+//		},
+//		{
+//			name: "Cristopher David",
+//			title: "VR Evangelist and Developer",
+//			img: "cristopher-david",
+//			bio: "Toph is a VR Evangelist and Developer. He works as an R&D Engineer at Nokia by day but leads a double life in the metaverse. He co-founded VR Philippines to boost the local VR community and possibly help put the Philippines in the forefront of this exciting technological revolution. He is currently setting up his own VR startup, Veer, which aims to bring virtual reality to everyone. He also serves as the Board Member for VR at ACM SIGGRAPH Manila.",
+//			skills: [6],
+//			company: "VR Enthusiast",
+//			sm: {
+//				fb: "https://www.facebook.com/tophoftheworld",
+//				tw: "",
+//				gp: "",
+//				li: "https://www.linkedin.com/in/davidcristopher",
+//				ws: ""
+//			}
+//		}
 	],
 	schedule: [
 		{
