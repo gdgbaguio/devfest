@@ -195,7 +195,7 @@ var Data = {
 
 		{
 			name: "Brian Matthew Mamaril",
-			title: "Front-end Developer",
+			title: "Front-end Engineer / Ninjaneer",
 			img: "brian-mamaril",
 			bio: "University of the Cordilleras 2013",
 			skills: [11,12],
@@ -210,10 +210,10 @@ var Data = {
 		},
 		{
 			name: "Kurt Renzo Acosta",
-			title: "",
+			title: "Community Manager, Google Developer Group",
 			img: "kurt-acosta",
 			bio: "",
-			skills: [0],
+			skills: [0,2,5],
 			company: "",
 			sm: {
 				fb: "https://www.facebook.com/kurt.acosta",
@@ -222,7 +222,51 @@ var Data = {
 				li: "",
 				wb: ""
 			}
-		},
+		},	{
+					name: "Christianne Lynnette Cabanban",
+					title: "Education Supervisor II",
+					img: "lynnette-captures",
+					bio: "Christianne Lynnette \"Lynnette Captures\" Cabanban is from La Union. An educator, a public servant, tech enthusiast,frustrated artist, entrepreneur and occasional traveler.",
+					skills: [],
+					company: "Commission on Higher Education",
+					sm: {
+						fb: "https://www.facebook.com/christianne.lynnette",
+						tw: "",
+						gp: "",
+						li: "",
+						wb: "http://lynnettecaptures.com"
+					}
+				},
+				{
+							name: "Benj Tupas",
+							title: "Founder & CEO of FunBuddies",
+							img: "benj-tupas",
+							bio: "Benj is the Founder/CEO of FunBuddies. He loves technology, business, books, and travel/adventure.",
+							skills: [0,1,2],
+							company: "FunBuddies",
+							sm: {
+								fb: "https://www.facebook.com/profile.php?id=100000195150265",
+								tw: "https://twitter.com/benj_tupas",
+								gp: "https://plus.google.com/+BenjTupas0420",
+								li: "https://ph.linkedin.com/in/benjtupas",
+								wb: "http://www.benjtupas.com/"
+							}
+						},
+						{
+									name: "Benj Tupas",
+									title: "Founder & CEO of FunBuddies",
+									img: "benj-tupas",
+									bio: "Benj is the Founder/CEO of FunBuddies. He loves technology, business, books, and travel/adventure.",
+									skills: [0,1,2],
+									company: "FunBuddies",
+									sm: {
+										fb: "https://www.facebook.com/profile.php?id=100000195150265",
+										tw: "https://twitter.com/benj_tupas",
+										gp: "https://plus.google.com/+BenjTupas0420",
+										li: "https://ph.linkedin.com/in/benjtupas",
+										wb: "http://www.benjtupas.com/"
+									}
+								},
 //		{
 //			name: "Ralph Regalado",
 //			title: "Community Manager, Google Developer Group Philippines",
