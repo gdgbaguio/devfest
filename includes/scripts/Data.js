@@ -179,9 +179,9 @@ var Data = {
 		},
 		{
 			name: "Reymark Matabang",
-			title: "IT Educator, Freelance Web Developer",
+			title: "IT Educator, Freelance Developer",
 			img: "reymark-matabang",
-			bio: "Reymark Matabang is an IT Educator at STI College Baguio, He also a freelance Web Developer. ",
+			bio: "Reymark Matabang is an IT Educator at STI College Baguio, He also a freelance Developer. ",
 			skills: [5],
 			company: "STI College Baguio",
 			sm: {
