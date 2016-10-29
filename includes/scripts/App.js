@@ -342,30 +342,15 @@ var App = {
 						if(ci > 0)
 							$e.find(".speaker").append("<br>");
 						if(cd == "firebase") {
-							if(data.mentors[cd].length > 1)
-								$e.find(".speaker").append("<b>Web Mentors (Firebase and PWA)</b><br><br>");
-							else
-								$e.find(".speaker").append("<b>Web Mentor (Firebase and PWA)</b><br><br>");
+							$e.find(".speaker").append("<b>Web (Firebase and PWA)</b><br><br>");
 						} else if(cd == "iot") {
-							if(data.mentors[cd].length > 1)
-								$e.find(".speaker").append("<b>IoT Mentors</b><br><br>");
-							else
-								$e.find(".speaker").append("<b>IoT Mentor</b><br><br>");
+							$e.find(".speaker").append("<b>Internet of Things</b><br><br>");
 						} else if(cd == "vr") {
-							if(data.mentors[cd].length > 1)
-								$e.find(".speaker").append("<b>VR Mentors</b><br><br>");
-							else
-								$e.find(".speaker").append("<b>VR Mentor</b><br><br>");
+							$e.find(".speaker").append("<b>Virtual Reality</b><br><br>")
 						} else if(cd == "android") {
-							if(data.mentors[cd].length > 1)
-								$e.find(".speaker").append("<b>Android Mentors</b><br><br>");
-							else
-								$e.find(".speaker").append("<b>Android Mentor</b><br><br>");
+							$e.find(".speaker").append("<b>Android</b><br><br>");
 						} else if(cd == "cloud") {
-							if(data.mentors[cd].length > 1)
-								$e.find(".speaker").append("<b>Cloud Mentors (Machine Learning)</b><br><br>");
-							else
-								$e.find(".speaker").append("<b>Cloud Mentor (Machine Learning)</b><br><br>");
+							$e.find(".speaker").append("<b>Cloud (Machine Learning)</b><br><br>");
 						}
 						$.each(data.mentors[cd], function(sk, sd) {
 							var speaker = App.getSpeakerData(sd);
