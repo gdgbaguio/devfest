@@ -132,21 +132,7 @@
 						ws: ""
 					}
 				},
-		//		{
-		//			name: "Ben Adrian Sarmiento",
-		//			title: "Associate Manager in Accenture",
-		//			img: "ben-adrian-sarmiento",
-		//			bio: "Ben spends most of his time creating apps for Google Cloud Platform. Internet is oxygen to him.",
-		//			skills: [1],
-		//			company: "Accenture",
-		//			sm: {
-		//				fb: "https://www.facebook.com/bensarmiento",
-		//				tw: "https://twitter.com/bensarmiento",
-		//				gp: "https://plus.google.com/+BenAdrianSarmientoDev",
-		//				li: "https://ph.linkedin.com/in/bensarmiento",
-		//				wb: "https://bensarmiento.com/"
-		//			}
-		//		},
+
 				{
 					name: "Reymart Canuel",
 					title: "Community Manager, Google Developer Group Baguio",
@@ -168,7 +154,7 @@
 					img: "anton-orpilla",
 					bio: "\"Manong Antawn\" has been an ICT practitioner for 10 Years+ in various Industries (Banking, Government, Telecommunications, Energy & Utilities, & Others). During his free time (outside consultation work), he conducts Workshops and Seminars for ICT Community Events and University Partners about various ICT Topics covering Service Oriented Architecture (SOA), Business Process Management (BPM), Mobile Development, Big Data/Analytics, Security, Cloud Computing, Game Development, and others. He also participates actively in Hackathons, Open Source Product Development and collaborates during ICT Community Meet-ups. His favorite genre in music is Reggae and music artist is Bob Marley.",
 					skills: [3],
-					company: "",
+					company: "IBM",
 					sm: {
 						fb: "https://www.facebook.com/anton.raphael.orpilla",
 						tw: "",
@@ -214,7 +200,7 @@
 					img: "kurt-acosta",
 					bio: "Kurt Renzo Acosta is an Android Developer who utilizes Google technologies in developing applications. He is currently an Information Technology student majoring in Software Development in the University of Baguio. He is also a student volunteer for Google Developer Group (GDG) Baguio and has led the Android Study Jams 2016 in Baguio City. In his free time, he likes to play the guitar, learn new technologies and play video games.",
 					skills: [0,2,3,5],
-					company: "",
+					company: "GDG Baguio",
 					sm: {
 						fb: "https://www.facebook.com/kurt.acosta",
 						tw: "",
@@ -236,6 +222,21 @@
 								gp: "",
 								li: "",
 								wb: "http://lynnettecaptures.com"
+							}
+						},
+						{
+						name: "Ben Adrian Sarmiento",
+						title: "Associate Manager in Accenture",
+						img: "ben-adrian-sarmiento",
+							bio: "Ben spends most of his time creating apps for Google Cloud Platform. Internet is oxygen to him.",
+							skills: [1],
+							company: "Accenture",
+					sm: {
+								fb: "https://www.facebook.com/bensarmiento",
+							tw: "https://twitter.com/bensarmiento",
+								gp: "https://plus.google.com/+BenAdrianSarmientoDev",
+								li: "https://ph.linkedin.com/in/bensarmiento",
+							wb: "https://bensarmiento.com/"
 							}
 						},
 //						{
