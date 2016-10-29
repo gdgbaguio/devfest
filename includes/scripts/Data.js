@@ -238,21 +238,21 @@
 								wb: "http://lynnettecaptures.com"
 							}
 						},
-						{
-						name: "Benj Tupas",
-									title: "Founder & CEO of FunBuddies",
-									img: "benj-tupas",
-									bio: "Benj is the Founder/CEO of FunBuddies. He loves technology, business, books, and travel/adventure.",
-									skills: [0,1,2],
-									company: "FunBuddies",
-									sm: {
-										fb: "https://www.facebook.com/profile.php?id=100000195150265",
-										tw: "https://twitter.com/benj_tupas",
-										gp: "https://plus.google.com/+BenjTupas0420",
-										li: "https://ph.linkedin.com/in/benjtupas",
-										wb: "http://www.benjtupas.com/"
-									}
-								},
+//						{
+//						name: "Benj Tupas",
+//									title: "Founder & CEO of FunBuddies",
+//									img: "benj-tupas",
+//									bio: "Benj is the Founder/CEO of FunBuddies. He loves technology, business, books, and travel/adventure.",
+//									skills: [0,1,2],
+//									company: "FunBuddies",
+//									sm: {
+//										fb: "https://www.facebook.com/profile.php?id=100000195150265",
+//										tw: "https://twitter.com/benj_tupas",
+//										gp: "https://plus.google.com/+BenjTupas0420",
+//										li: "https://ph.linkedin.com/in/benjtupas",
+//										wb: "http://www.benjtupas.com/"
+//									}
+//								},
 								{
 								name: "Jason Bruno",
 								title: "Head Trainer",
