@@ -154,7 +154,7 @@
 					img: "anton-orpilla",
 					bio: "\"Manong Antawn\" has been an ICT practitioner for 10 Years+ in various Industries (Banking, Government, Telecommunications, Energy & Utilities, & Others). During his free time (outside consultation work), he conducts Workshops and Seminars for ICT Community Events and University Partners about various ICT Topics covering Service Oriented Architecture (SOA), Business Process Management (BPM), Mobile Development, Big Data/Analytics, Security, Cloud Computing, Game Development, and others. He also participates actively in Hackathons, Open Source Product Development and collaborates during ICT Community Meet-ups. His favorite genre in music is Reggae and music artist is Bob Marley.",
 					skills: [3],
-					company: "",
+					company: "IBM",
 					sm: {
 						fb: "https://www.facebook.com/anton.raphael.orpilla",
 						tw: "",
