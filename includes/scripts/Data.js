@@ -450,28 +450,32 @@
 					bg: "includes/images/schedule/lunch.jpg",
 					start: "1200",
 					desc: "Lunch",
+					speaker: [],
 					duration: 60
 				},
 				{
 					start: "1300",
 					desc: "Codelabs",
+					speaker: [""],
 					duration: 180
 				},
 				{
 					start: "1600",
 					desc: "Snacks",
+					speaker: [],
 					duration: 15
 				},
 				{
 
 					start: "1615",
 					desc: "Closing",
-					speaker: [],
+					speaker: [""],
 					duration: 15
 				},
 				{
 					start: "1630",
 					desc: "Announcement of Winners in Codelabs",
+					speaker: [""],
 					duration: 30
 				}
 			],
