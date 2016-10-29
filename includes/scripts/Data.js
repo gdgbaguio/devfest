@@ -254,17 +254,17 @@
 				},
 				{
 					name: "Trinmar Boado",
-					title: "Community Manager, Google Developer Group Baguio",
-					img: "reymart-canuel",
-					bio: "A Web and Mobile Developer from DOST who loves to inspire young geeks.",
-					skills: [2,5],
-					company: "",
+					title: "Web and Mobile Developer",
+					img: "trinmar-boado",
+					bio: "Code hobbyist and technopreneur. loves to inspire young geeks.",
+					skills: [0,2,5],
+					company: "Department of Science and Technology",
 					sm: {
-						fb: "https://www.facebook.com/rcanu",
-						tw: "https://twitter.com/rcanu",
-						gp: "https://plus.google.com/+ReymartCanuel/",
-						li: "https://ph.linkedin.com/in/rcanu",
-						wb: "http://www.rcanu.com/"
+						fb: "http://fb.com/timi.boado",
+						tw: "",
+						gp: "https://plus.google.com/+TrinmarBoado",
+						li: "",
+						wb: ""
 					}
 				},
 
