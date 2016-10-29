@@ -1,2 +1,2 @@
 # devfest
-Official website for GDG DevFest Philippines
+Official website for GDG DevFest Baguio
