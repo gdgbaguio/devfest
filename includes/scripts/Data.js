@@ -118,6 +118,50 @@
 		//				wb: "http://albertpadin.com/"
 		//			}
 		//		},
+		{
+			name: "Anton Raphael Orpilla",
+			title: "Solutions Architect, Consultant & University Lecturer",
+			img: "anton-orpilla",
+			bio: "\"Manong Antawn\" has been an ICT practitioner for 10 Years+ in various Industries (Banking, Government, Telecommunications, Energy & Utilities, & Others). During his free time (outside consultation work), he conducts Workshops and Seminars for ICT Community Events and University Partners about various ICT Topics covering Service Oriented Architecture (SOA), Business Process Management (BPM), Mobile Development, Big Data/Analytics, Security, Cloud Computing, Game Development, and others. He also participates actively in Hackathons, Open Source Product Development and collaborates during ICT Community Meet-ups. His favorite genre in music is Reggae and music artist is Bob Marley.",
+			skills: [3],
+			company: "IBM",
+			sm: {
+				fb: "https://www.facebook.com/anton.raphael.orpilla",
+				tw: "",
+				gp: "https://plus.google.com/+AntonRaphaelOrpilla",
+				li: "",
+				wb: ""
+			}
+		},
+		{
+		name: "Ben Adrian Sarmiento",
+		title: "Associate Manager in Accenture",
+		img: "ben-adrian-sarmiento",
+			bio: "Ben spends most of his time creating apps for Google Cloud Platform. Internet is oxygen to him.",
+			skills: [1],
+			company: "Accenture",
+	sm: {
+				fb: "https://www.facebook.com/bensarmiento",
+			tw: "https://twitter.com/bensarmiento",
+				gp: "https://plus.google.com/+BenAdrianSarmientoDev",
+				li: "https://ph.linkedin.com/in/bensarmiento",
+			wb: "https://bensarmiento.com/"
+			}
+		},{
+			name: "Brian Matthew Mamaril",
+			title: "Front-end Engineer / Ninjaneer",
+			img: "brian-mamaril",
+			bio: "University of the Cordilleras 2013",
+			skills: [11,12],
+			company: "New Media Services Pty Ltd",
+			sm: {
+				fb: "https://www.facebook.com/empoipalaboi",
+				tw: "",
+				gp: "",
+				li: "",
+				wb: ""
+			}
+		},
 				{
 					name: "Chelle Obligacion Gray",
 					title: "Community Manager, Google APAC",
@@ -130,6 +174,66 @@
 						gp: "",
 						li: "",
 						ws: ""
+					}
+				},
+				{
+							name: "Christianne Lynnette Cabanban",
+							title: "Education Supervisor II",
+							img: "lynnette-captures",
+							bio: "Christianne Lynnette \"Lynnette Captures\" Cabanban is from La Union. An educator, a public servant, tech enthusiast,frustrated artist, entrepreneur and occasional traveler.",
+							skills: [],
+							company: "Commission on Higher Education",
+							sm: {
+								fb: "https://www.facebook.com/christianne.lynnette",
+								tw: "",
+								gp: "",
+								li: "",
+								wb: "http://lynnettecaptures.com"
+							}
+						},	{
+							name: "Jason Bruno",
+							title: "Head Trainer",
+							img: "jason-bruno",
+							bio: "A polyglot digital nomad with a taste for old coffee and new tech.",
+							skills: [3,6],
+							company: "Vivixx Academy",
+							sm: {
+								fb: "https://www.facebook.com/jcbruno",
+								tw: "https://twitter.com/jasonbruno",
+								gp: "https://plus.google.com/+jcwebhole",
+								li: "",
+								wb: "http://www.bjasonbruno.net/"
+										}
+									},
+									{
+										name: "Kurt Renzo Acosta",
+										title: "Community Manager, Google Developer Group Baguio",
+										img: "kurt-acosta",
+										bio: "Kurt Renzo Acosta is an Android Developer who utilizes Google technologies in developing applications. He is currently an Information Technology student majoring in Software Development in the University of Baguio. He is also a student volunteer for Google Developer Group (GDG) Baguio and has led the Android Study Jams 2016 in Baguio City. In his free time, he likes to play the guitar, learn new technologies and play video games.",
+										skills: [0,2,3,5],
+										company: "GDG Baguio",
+										sm: {
+											fb: "https://www.facebook.com/kurt.acosta",
+											tw: "",
+											gp: "",
+											li: "",
+											wb: ""
+										}
+									},
+
+				{
+					name: "Reymark Matabang",
+					title: "IT Educator, Freelance Developer",
+					img: "reymark-matabang",
+					bio: "Reymark Matabang is an IT Educator at STI College Baguio, He also a freelance Developer. ",
+					skills: [5],
+					company: "STI College Baguio",
+					sm: {
+						fb: "https://www.facebook.com/rmmjava",
+						tw: "",
+						gp: "https://plus.google.com/u/1/+ReymarkMatabang",
+						li: "",
+						wb: ""
 					}
 				},
 
@@ -148,97 +252,13 @@
 						wb: "http://www.rcanu.com/"
 					}
 				},
-				{
-					name: "Anton Raphael Orpilla",
-					title: "Solutions Architect, Consultant & University Lecturer",
-					img: "anton-orpilla",
-					bio: "\"Manong Antawn\" has been an ICT practitioner for 10 Years+ in various Industries (Banking, Government, Telecommunications, Energy & Utilities, & Others). During his free time (outside consultation work), he conducts Workshops and Seminars for ICT Community Events and University Partners about various ICT Topics covering Service Oriented Architecture (SOA), Business Process Management (BPM), Mobile Development, Big Data/Analytics, Security, Cloud Computing, Game Development, and others. He also participates actively in Hackathons, Open Source Product Development and collaborates during ICT Community Meet-ups. His favorite genre in music is Reggae and music artist is Bob Marley.",
-					skills: [3],
-					company: "IBM",
-					sm: {
-						fb: "https://www.facebook.com/anton.raphael.orpilla",
-						tw: "",
-						gp: "https://plus.google.com/+AntonRaphaelOrpilla",
-						li: "",
-						wb: ""
-					}
-				},
-				{
-					name: "Reymark Matabang",
-					title: "IT Educator, Freelance Developer",
-					img: "reymark-matabang",
-					bio: "Reymark Matabang is an IT Educator at STI College Baguio, He also a freelance Developer. ",
-					skills: [5],
-					company: "STI College Baguio",
-					sm: {
-						fb: "https://www.facebook.com/rmmjava",
-						tw: "",
-						gp: "https://plus.google.com/u/1/+ReymarkMatabang",
-						li: "",
-						wb: ""
-					}
-				},
 
-				{
-					name: "Brian Matthew Mamaril",
-					title: "Front-end Engineer / Ninjaneer",
-					img: "brian-mamaril",
-					bio: "University of the Cordilleras 2013",
-					skills: [11,12],
-					company: "New Media Services Pty Ltd",
-					sm: {
-						fb: "https://www.facebook.com/empoipalaboi",
-						tw: "",
-						gp: "",
-						li: "",
-						wb: ""
-					}
-				},
-				{
-					name: "Kurt Renzo Acosta",
-					title: "Community Manager, Google Developer Group Baguio",
-					img: "kurt-acosta",
-					bio: "Kurt Renzo Acosta is an Android Developer who utilizes Google technologies in developing applications. He is currently an Information Technology student majoring in Software Development in the University of Baguio. He is also a student volunteer for Google Developer Group (GDG) Baguio and has led the Android Study Jams 2016 in Baguio City. In his free time, he likes to play the guitar, learn new technologies and play video games.",
-					skills: [0,2,3,5],
-					company: "GDG Baguio",
-					sm: {
-						fb: "https://www.facebook.com/kurt.acosta",
-						tw: "",
-						gp: "",
-						li: "",
-						wb: ""
-					}
-				},
-				{
-							name: "Christianne Lynnette Cabanban",
-							title: "Education Supervisor II",
-							img: "lynnette-captures",
-							bio: "Christianne Lynnette \"Lynnette Captures\" Cabanban is from La Union. An educator, a public servant, tech enthusiast,frustrated artist, entrepreneur and occasional traveler.",
-							skills: [],
-							company: "Commission on Higher Education",
-							sm: {
-								fb: "https://www.facebook.com/christianne.lynnette",
-								tw: "",
-								gp: "",
-								li: "",
-								wb: "http://lynnettecaptures.com"
-							}
-						},
-						{
-						name: "Ben Adrian Sarmiento",
-						title: "Associate Manager in Accenture",
-						img: "ben-adrian-sarmiento",
-							bio: "Ben spends most of his time creating apps for Google Cloud Platform. Internet is oxygen to him.",
-							skills: [1],
-							company: "Accenture",
-					sm: {
-								fb: "https://www.facebook.com/bensarmiento",
-							tw: "https://twitter.com/bensarmiento",
-								gp: "https://plus.google.com/+BenAdrianSarmientoDev",
-								li: "https://ph.linkedin.com/in/bensarmiento",
-							wb: "https://bensarmiento.com/"
-							}
-						},
+
+
+
+
+
+
 //						{
 //						name: "Benj Tupas",
 //									title: "Founder & CEO of FunBuddies",
@@ -254,21 +274,7 @@
 //										wb: "http://www.benjtupas.com/"
 //									}
 //								},
-								{
-								name: "Jason Bruno",
-								title: "Head Trainer",
-								img: "jason-bruno",
-								bio: "A polyglot digital nomad with a taste for old coffee and new tech.",
-								skills: [3,6],
-								company: "Vivixx Academy",
-								sm: {
-									fb: "https://www.facebook.com/jcbruno",
-									tw: "https://twitter.com/jasonbruno",
-									gp: "https://plus.google.com/+jcwebhole",
-									li: "",
-									wb: "http://www.bjasonbruno.net/"
-											}
-										},
+
 		//		{
 		//			name: "Ralph Regalado",
 		//			title: "Community Manager, Google Developer Group Philippines",
