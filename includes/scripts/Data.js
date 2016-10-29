@@ -210,10 +210,10 @@
 				},
 				{
 					name: "Kurt Renzo Acosta",
-					title: "Community Manager, Google Developer Group",
+					title: "Community Manager, Google Developer Group Baguio",
 					img: "kurt-acosta",
-					bio: "",
-					skills: [0,2,5],
+					bio: "Kurt Renzo Acosta is an Android Developer who utilizes Google technologies in developing applications. He is currently an Information Technology student majoring in Software Development in the University of Baguio. He is also a student volunteer for Google Developer Group (GDG) Baguio and has led the Android Study Jams 2016 in Baguio City. In his free time, he likes to play the guitar, learn new technologies and play video games.",
+					skills: [0,2,3,5],
 					company: "",
 					sm: {
 						fb: "https://www.facebook.com/kurt.acosta",
