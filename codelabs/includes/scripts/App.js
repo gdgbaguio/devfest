@@ -1,32 +1,32 @@
 var App = {
-	xhr: null, 
-	fl: true, 
-	viewLoad: false, 
-	headLoad: false, 
-	currentPage: "", 
+	xhr: null,
+	fl: true,
+	viewLoad: false,
+	headLoad: false,
+	currentPage: "",
 	ready: function(page) {
-		this.Firebase.init(); 
-		if(page == "") 
-			page = "home"; 
-		this.currentPage = page; 
-		App.responsive(); 
-		App.DialogBox.responsive(); 
-		$(".action-bar img.logo").css("opacity", "1"); 
+		this.Firebase.init();
+		if(page == "")
+			page = "home";
+		this.currentPage = page;
+		App.responsive();
+		App.DialogBox.responsive();
+		$(".action-bar img.logo").css("opacity", "1");
 		$(window).resize(function() {
-			App.responsive(); 
-			App.DialogBox.responsive(); 
-		}); 
+			App.responsive();
+			App.DialogBox.responsive();
+		});
 		$(".black-trans, .back").click(function() {
 			if($(".slider").css("left") == "0px") {
-				App.slider("hide"); 
+				App.slider("hide");
 			} else if(!App.DialogBox.isEnabled()) {
-				if (typeof App.DialogBox.el.attr("data-can-close") !== typeof undefined && 
+				if (typeof App.DialogBox.el.attr("data-can-close") !== typeof undefined &&
 						   App.DialogBox.el.attr("data-can-close") !== false) {
-					if(App.DialogBox.el.attr("data-can-close") == "true") 
-						App.DialogBox.hide(); 
-				} else 
-					App.DialogBox.hide(); 
-				} 
+					if(App.DialogBox.el.attr("data-can-close") == "true")
+						App.DialogBox.hide();
+				} else
+					App.DialogBox.hide();
+				}
 			});
 		$(".menu").click(function() {
 			App.slider("show");
@@ -40,7 +40,7 @@ var App = {
 			}
 		});
 		var app = this;
-		$('html').click(function(e) {                    
+		$('html').click(function(e) {
 		   if($(".more-options").is(":visible"))
 	   			app.showUserOptions(false);
 		});
@@ -587,7 +587,7 @@ var App = {
 								$("#listCodelabs a.codelab-list").attr("data-codelab-status", "enabled");
 								App.User.listCodelabs();
 								App.Process.step5();
-							});	
+							});
 						});
 					});
 				});
@@ -622,7 +622,7 @@ var App = {
 					})
 					if(user.val().score != local.score)
 						update = true;
-					if(update) 
+					if(update)
 						App.Firebase.ref("users/"+App.User.loggedIn.uid).update(local);
 				})
 			})
@@ -640,7 +640,7 @@ var App = {
 						vr: 0,
 						android: 0,
 						cloud: 0
-					});	
+					});
 				}
 			});
 		},
@@ -662,7 +662,7 @@ var App = {
 					if(data.child("chapter").exists()) {
 						if(data.val().chapter == userChapter.val()) {
 							if(data.key == App.User.loggedIn.uid) {
-								if(data.val().score == 0) 
+								if(data.val().score == 0)
 									App.User.loadRanking(-1);
 								else
 									App.User.loadRanking(rank);
@@ -804,7 +804,7 @@ var App = {
 								$el.addClass("first-place").removeClass("second-place third-place");
 							else if(count-rank == 2)
 								$el.addClass("second-place").removeClass("third-place");
-							else if(count-rank == 3) 
+							else if(count-rank == 3)
 								$el.addClass("third-place");
 							$el.find(".table .cell:nth-child(3)").html(data.val().displayName);
 							$el.find(".table .cell:last-child").html(data.val()[codelab] + "pts");
@@ -984,7 +984,7 @@ var App = {
 						$el.addClass("first-place").removeClass("second-place third-place");
 					else if(count-rank == 2)
 						$el.addClass("second-place").removeClass("third-place");
-					else if(count-rank == 3) 
+					else if(count-rank == 3)
 						$el.addClass("third-place");
 					$el.find(".table .cell:nth-child(3)").html(data.val().displayName);
 					$el.find(".table .cell:last-child").html(data.val()["score"] + "pts");
@@ -1040,7 +1040,7 @@ var App = {
 						$el.addClass("first-place").removeClass("second-place third-place");
 					else if(count-rank == 2)
 						$el.addClass("second-place").removeClass("third-place");
-					else if(count-rank == 3) 
+					else if(count-rank == 3)
 						$el.addClass("third-place");
 					$el.find(".table .cell:nth-child(3)").html(data.val().displayName);
 					$el.find(".table .cell:last-child").html(data.val()["score"] + "pts");
