@@ -422,60 +422,60 @@
 			schedule: [
 				{
 					bg: "includes/images/schedule/registration.jpg",
-					start: "0800",
+					start: "0800 AM",
 					desc: "Registration",
 					speaker: [],
 					duration: 60
 				},
 				{
 					// bg: "includes/images/schedule/games.jpg",
-					start: "0900",
+					start: "0900 AM",
 					desc: "Keynote",
 					speaker: ["chelle-obligacion-gray"],
 					duration: 30
 				},
 				{
-					start: "0930",
-					desc: "Welcome Remarks",
+					start: "0930 AM",
+					desc: "GDG Baguio Updates",
 					speaker: ["reymart-canuel"],
 					duration: 30
 				},
 				{
-					start: "1000",
+					start: "1000 AM",
 					desc: "Talks and Demos",
-					speaker: [""],
+					speaker: [],
 					duration: 120
 				},
 				{
 					bg: "includes/images/schedule/lunch.jpg",
-					start: "1200",
+					start: "1200 AM",
 					desc: "Lunch",
 					speaker: [],
 					duration: 60
 				},
 				{
-					start: "1300",
+					start: "0100 PM",
 					desc: "Codelabs",
-					speaker: [""],
+					speaker: [],
 					duration: 180
 				},
 				{
-					start: "1600",
+					start: "0400 PM",
 					desc: "Snacks",
 					speaker: [],
 					duration: 15
 				},
 				{
 
-					start: "1615",
+					start: "0415 PM",
 					desc: "Closing",
-					speaker: [""],
+					speaker: [],
 					duration: 15
 				},
 				{
-					start: "1630",
+					start: "0430 PM",
 					desc: "Announcement of Winners in Codelabs",
-					speaker: [""],
+					speaker: [],
 					duration: 30
 				}
 			],
