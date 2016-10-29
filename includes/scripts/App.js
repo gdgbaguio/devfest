@@ -17,26 +17,26 @@ var App = {
 		}
 		return result;
 	},
-//	Survey: {
-//		popup: function() {
-	//		if(!localStorage.popupSurvey) {
-		//		App.DialogBox.show();
-		//		App.DialogBox.disable();
-		//		$.ajax({
-		//			url: "views/survey.html",
-		//			cache: true,
-		//			success: function(html) {
-		//				App.DialogBox.el.find(".wrapper").html(html);
-		//				App.DialogBox.enable();
-		//			}
-		//		})
-	//		}
-	//	},
-	//	dontask: function() {
-	//		localStorage.popupSurvey = true;
-//			App.DialogBox.hide();
-//		}
-//	},
+	Survey: {
+		popup: function() {
+			if(!localStorage.popupSurvey) {
+				App.DialogBox.show();
+				App.DialogBox.disable();
+				$.ajax({
+					url: "views/survey.html",
+					cache: true,
+					success: function(html) {
+						App.DialogBox.el.find(".wrapper").html(html);
+						App.DialogBox.enable();
+					}
+				})
+			}
+		},
+		dontask: function() {
+			localStorage.popupSurvey = true;
+			App.DialogBox.hide();
+		}
+	},
 
 	DialogBox: {
 		el: $(".dialog-box"),
