@@ -200,9 +200,9 @@
 							sm: {
 								fb: "https://www.facebook.com/jcbruno",
 								tw: "https://twitter.com/jasonbruno",
-								gp: "https://plus.google.com/+jcwebhole",
+								gp: "https://plus.google.com/u/0/+JasonBrunoWordPress",
 								li: "",
-								wb: "http://www.bjasonbruno.net/"
+								wb: "http://www.jasonbruno.net/"
 										}
 									},
 									{
@@ -244,6 +244,21 @@
 					bio: "Reymart \"Canu\" Canuel is the current community manager for Google Developer Group Baguio. His passion towards IT and environmental preservation made him travel places like Germany, Japan, and Korea. He strongly believes in the potential of getting things done, inspiring others, and sharing ideas in effective learning most especially in IT. ",
 					skills: [2,5],
 					company: "GDG Baguio",
+					sm: {
+						fb: "https://www.facebook.com/rcanu",
+						tw: "https://twitter.com/rcanu",
+						gp: "https://plus.google.com/+ReymartCanuel/",
+						li: "https://ph.linkedin.com/in/rcanu",
+						wb: "http://www.rcanu.com/"
+					}
+				},
+				{
+					name: "Trinmar Boado",
+					title: "Community Manager, Google Developer Group Baguio",
+					img: "reymart-canuel",
+					bio: "A Web and Mobile Developer from DOST who loves to inspire young geeks.",
+					skills: [2,5],
+					company: "",
 					sm: {
 						fb: "https://www.facebook.com/rcanu",
 						tw: "https://twitter.com/rcanu",
