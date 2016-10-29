@@ -457,6 +457,13 @@
 					start: "0100 PM",
 					desc: "Codelabs",
 					speaker: [],
+					mentors: {
+						firebase: ["reymart-canuel", "brian-mamaril", "reymart-canuel"],
+						cloud: ["anton-orpilla", "ben-adrian-sarmiento"],
+						vr: ["jason-bruno"],
+						android: ["kurt-acosta"],
+						iot: ["lynnette-captures"]
+					},
 					duration: 180
 				},
 				{
@@ -479,24 +486,24 @@
 					duration: 30
 				}
 			],
-			"parallel-activities": [
-				{
-					start: "0800",
-					desc: "Code Blaze Challenge",
-					judges: ["sami-kizilbash", "mete-atamel", "albert-padin", "Accenture"],
-					duration: 480
-				},
-				{
-					start: "0900",
-					desc: "Code your own: Codelabs (BYOD)",
-					mentors: {
-						firebase: ["joyce-guiao", "reymart-canuel"],
-						pwa: ["toni-jan-keith-monserrat", "wayne-manuel"],
-						vr: ["cristopher-david", "adrian-vincent-tayag"],
-						android: ["benj-tupas", "mac-valmores"],
-						cloud: ["albert-padin", "ben-adrian-sarmiento"]
-					},
-					duration: 480
-				}
-			]
+			// "parallel-activities": [
+			// 	{
+			// 		start: "0800",
+			// 		desc: "Code Blaze Challenge",
+			// 		judges: ["sami-kizilbash", "mete-atamel", "albert-padin", "Accenture"],
+			// 		duration: 480
+			// 	},
+			// 	{
+			// 		start: "0900",
+			// 		desc: "Code your own: Codelabs (BYOD)",
+			// 		mentors: {
+			// 			firebase: ["joyce-guiao", "reymart-canuel"],
+			// 			pwa: ["toni-jan-keith-monserrat", "wayne-manuel"],
+			// 			vr: ["cristopher-david", "adrian-vincent-tayag"],
+			// 			android: ["benj-tupas", "mac-valmores"],
+			// 			cloud: ["albert-padin", "ben-adrian-sarmiento"]
+			// 		},
+			// 		duration: 480
+			// 	}
+			// ]
 		}
