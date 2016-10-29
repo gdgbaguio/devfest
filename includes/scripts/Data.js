@@ -220,13 +220,27 @@
 											wb: ""
 										}
 									},
-
+									{
+										name: "Rara Valdez",
+										title: "Women Techmakers Baguio Lead",
+										img: "rara-valdez",
+										bio: "",
+										skills: [],
+										company: "",
+										sm: {
+											fb: "",
+											tw: "",
+											gp: "",
+											li: "",
+											wb: ""
+										}
+									},
 				{
 					name: "Reymark Matabang",
 					title: "IT Educator, Freelance Developer",
 					img: "reymark-matabang",
 					bio: "Reymark Matabang is an IT Educator at STI College Baguio, He also a freelance Developer. ",
-					skills: [5],
+					skills: [2,5],
 					company: "STI College Baguio",
 					sm: {
 						fb: "https://www.facebook.com/rmmjava",
