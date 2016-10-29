@@ -132,21 +132,7 @@
 						ws: ""
 					}
 				},
-		//		{
-		//			name: "Ben Adrian Sarmiento",
-		//			title: "Associate Manager in Accenture",
-		//			img: "ben-adrian-sarmiento",
-		//			bio: "Ben spends most of his time creating apps for Google Cloud Platform. Internet is oxygen to him.",
-		//			skills: [1],
-		//			company: "Accenture",
-		//			sm: {
-		//				fb: "https://www.facebook.com/bensarmiento",
-		//				tw: "https://twitter.com/bensarmiento",
-		//				gp: "https://plus.google.com/+BenAdrianSarmientoDev",
-		//				li: "https://ph.linkedin.com/in/bensarmiento",
-		//				wb: "https://bensarmiento.com/"
-		//			}
-		//		},
+
 				{
 					name: "Reymart Canuel",
 					title: "Community Manager, Google Developer Group Baguio",
@@ -214,7 +200,7 @@
 					img: "kurt-acosta",
 					bio: "Kurt Renzo Acosta is an Android Developer who utilizes Google technologies in developing applications. He is currently an Information Technology student majoring in Software Development in the University of Baguio. He is also a student volunteer for Google Developer Group (GDG) Baguio and has led the Android Study Jams 2016 in Baguio City. In his free time, he likes to play the guitar, learn new technologies and play video games.",
 					skills: [0,2,3,5],
-					company: "",
+					company: "GDG Baguio",
 					sm: {
 						fb: "https://www.facebook.com/kurt.acosta",
 						tw: "",
@@ -236,6 +222,21 @@
 								gp: "",
 								li: "",
 								wb: "http://lynnettecaptures.com"
+							}
+						},
+						{
+						name: "Ben Adrian Sarmiento",
+						title: "Associate Manager in Accenture",
+						img: "ben-adrian-sarmiento",
+							bio: "Ben spends most of his time creating apps for Google Cloud Platform. Internet is oxygen to him.",
+							skills: [1],
+							company: "Accenture",
+					sm: {
+								fb: "https://www.facebook.com/bensarmiento",
+							tw: "https://twitter.com/bensarmiento",
+								gp: "https://plus.google.com/+BenAdrianSarmientoDev",
+								li: "https://ph.linkedin.com/in/bensarmiento",
+							wb: "https://bensarmiento.com/"
 							}
 						},
 //						{
