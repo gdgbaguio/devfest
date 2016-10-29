@@ -30,7 +30,7 @@ var App = {
 						App.DialogBox.enable();
 					}
 				})
-			} 
+			}
 		},
 		dontask: function() {
 			localStorage.popupSurvey = true;
@@ -316,13 +316,13 @@ var App = {
 				$e.find(".speaker").hide();
 				if(data.speaker.length > 0) {
 					$e.find(".speaker").show();
-					if(data.speaker.length > 1)						
+					if(data.speaker.length > 1)
 						$e.find(".speaker").append("<b>Speakers</b><br><br>");
 					else
 						$e.find(".speaker").append("<b>Speaker</b><br><br>");
 					$.each(data.speaker, function(sk, sd) {
 						var speaker = App.getSpeakerData(sd);
-						if(App.getSpeakerIndex(sd) > -1) 
+						if(App.getSpeakerIndex(sd) > -1)
 							$e.find(".speaker").append('<a onclick="App.loadSpeaker(\''+App.getSpeakerIndex(sd)+'\')"><span class="chip" data-icon="background" data-background="includes/images/speakers/'+sd+'.jpg"><span>'+speaker.name+'</span></span></a>');
 						else
 							$e.find(".speaker").append('<span class="chip" data-icon="letter"><span>'+sd+'</span></span>');
@@ -334,6 +334,32 @@ var App = {
 						"text-shadow": "0px 3px 4px rgba(0,0,0,.2)",
 						"background-image": "url("+data.bg+")"
 					});
+				}
+				if(data.hasOwnProperty("mentors")) {
+					var codelabs = ["firebase", "pwa", "vr", "android", "cloud"];
+					$e.find(".speaker").show();
+					$.each(codelabs, function(ci, cd) {
+						if(ci > 0)
+							$e.find(".speaker").append("<br>");
+						if(cd == "firebase") {
+							$e.find(".speaker").append("<b>Web (Firebase and PWA)</b><br><br>");
+						} else if(cd == "iot") {
+							$e.find(".speaker").append("<b>Internet of Things</b><br><br>");
+						} else if(cd == "vr") {
+							$e.find(".speaker").append("<b>Virtual Reality</b><br><br>")
+						} else if(cd == "android") {
+							$e.find(".speaker").append("<b>Android</b><br><br>");
+						} else if(cd == "cloud") {
+							$e.find(".speaker").append("<b>Cloud (Machine Learning)</b><br><br>");
+						}
+						$.each(data.mentors[cd], function(sk, sd) {
+							var speaker = App.getSpeakerData(sd);
+							if(App.getSpeakerIndex(sd) > -1)
+								$e.find(".speaker").append('<a onclick="App.loadSpeaker(\''+App.getSpeakerIndex(sd)+'\')"><span class="chip" data-icon="background" data-background="includes/images/speakers/'+sd+'.jpg"><span>'+speaker.name+'</span></span></a>');
+							else
+								$e.find(".speaker").append('<span class="chip" data-icon="letter"><span>'+sd+'</span></span>');
+						})
+					})
 				}
 			})
 
@@ -350,13 +376,13 @@ var App = {
 				if(data.hasOwnProperty("speaker")) {
 					if(data.speaker.length > 0) {
 						$e.find(".speaker").show();
-						if(data.speaker.length > 1)						
+						if(data.speaker.length > 1)
 							$e.find(".speaker").append("<b>Speakers</b><br><br>");
 						else
 							$e.find(".speaker").append("<b>Speaker</b><br><br>");
 						$.each(data.speaker, function(sk, sd) {
 							var speaker = App.getSpeakerData(sd);
-							if(App.getSpeakerIndex(sd) > -1) 
+							if(App.getSpeakerIndex(sd) > -1)
 								$e.find(".speaker").append('<a onclick="App.loadSpeaker(\''+App.getSpeakerIndex(sd)+'\')"><span class="chip" data-icon="background" data-background="includes/images/speakers/'+sd+'.jpg"><span>'+speaker.name+'</span></span></a>');
 							else
 								$e.find(".speaker").append('<span class="chip" data-icon="letter"><span>'+sd+'</span></span>');
@@ -365,13 +391,13 @@ var App = {
 				} else if(data.hasOwnProperty("judges")) {
 					if(data.judges.length > 0) {
 						$e.find(".speaker").show();
-						if(data.judges.length > 1)						
+						if(data.judges.length > 1)
 							$e.find(".speaker").append("<b>Judges</b><br><br>");
 						else
 							$e.find(".speaker").append("<b>Judge</b><br><br>");
 						$.each(data.judges, function(sk, sd) {
 							var speaker = App.getSpeakerData(sd);
-							if(App.getSpeakerIndex(sd) > -1) 
+							if(App.getSpeakerIndex(sd) > -1)
 								$e.find(".speaker").append('<a onclick="App.loadSpeaker(\''+App.getSpeakerIndex(sd)+'\')"><span class="chip" data-icon="background" data-background="includes/images/speakers/'+sd+'.jpg"><span>'+speaker.name+'</span></span></a>');
 							else
 								$e.find(".speaker").append('<span class="chip" data-icon="letter"><span>'+sd+'</span></span>');
@@ -384,34 +410,34 @@ var App = {
 						if(ci > 0)
 							$e.find(".speaker").append("<br>");
 						if(cd == "firebase") {
-							if(data.mentors[cd].length > 1)						
+							if(data.mentors[cd].length > 1)
 								$e.find(".speaker").append("<b>Firebase Mentors</b><br><br>");
 							else
 								$e.find(".speaker").append("<b>Firebase Mentor</b><br><br>");
 						} else if(cd == "pwa") {
-							if(data.mentors[cd].length > 1)						
+							if(data.mentors[cd].length > 1)
 								$e.find(".speaker").append("<b>Web Mentors</b><br><br>");
 							else
 								$e.find(".speaker").append("<b>Web Mentor</b><br><br>");
 						} else if(cd == "vr") {
-							if(data.mentors[cd].length > 1)						
+							if(data.mentors[cd].length > 1)
 								$e.find(".speaker").append("<b>VR Mentors</b><br><br>");
 							else
 								$e.find(".speaker").append("<b>VR Mentor</b><br><br>");
 						} else if(cd == "android") {
-							if(data.mentors[cd].length > 1)						
+							if(data.mentors[cd].length > 1)
 								$e.find(".speaker").append("<b>Android Mentors</b><br><br>");
 							else
 								$e.find(".speaker").append("<b>Android Mentor</b><br><br>");
 						} else if(cd == "cloud") {
-							if(data.mentors[cd].length > 1)						
+							if(data.mentors[cd].length > 1)
 								$e.find(".speaker").append("<b>Cloud Mentors</b><br><br>");
 							else
 								$e.find(".speaker").append("<b>Cloud Mentor</b><br><br>");
 						}
 						$.each(data.mentors[cd], function(sk, sd) {
 							var speaker = App.getSpeakerData(sd);
-							if(App.getSpeakerIndex(sd) > -1) 
+							if(App.getSpeakerIndex(sd) > -1)
 								$e.find(".speaker").append('<a onclick="App.loadSpeaker(\''+App.getSpeakerIndex(sd)+'\')"><span class="chip" data-icon="background" data-background="includes/images/speakers/'+sd+'.jpg"><span>'+speaker.name+'</span></span></a>');
 							else
 								$e.find(".speaker").append('<span class="chip" data-icon="letter"><span>'+sd+'</span></span>');

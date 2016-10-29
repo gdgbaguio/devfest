@@ -132,21 +132,7 @@
 						ws: ""
 					}
 				},
-		//		{
-		//			name: "Ben Adrian Sarmiento",
-		//			title: "Associate Manager in Accenture",
-		//			img: "ben-adrian-sarmiento",
-		//			bio: "Ben spends most of his time creating apps for Google Cloud Platform. Internet is oxygen to him.",
-		//			skills: [1],
-		//			company: "Accenture",
-		//			sm: {
-		//				fb: "https://www.facebook.com/bensarmiento",
-		//				tw: "https://twitter.com/bensarmiento",
-		//				gp: "https://plus.google.com/+BenAdrianSarmientoDev",
-		//				li: "https://ph.linkedin.com/in/bensarmiento",
-		//				wb: "https://bensarmiento.com/"
-		//			}
-		//		},
+
 				{
 					name: "Reymart Canuel",
 					title: "Community Manager, Google Developer Group Baguio",
@@ -168,7 +154,7 @@
 					img: "anton-orpilla",
 					bio: "\"Manong Antawn\" has been an ICT practitioner for 10 Years+ in various Industries (Banking, Government, Telecommunications, Energy & Utilities, & Others). During his free time (outside consultation work), he conducts Workshops and Seminars for ICT Community Events and University Partners about various ICT Topics covering Service Oriented Architecture (SOA), Business Process Management (BPM), Mobile Development, Big Data/Analytics, Security, Cloud Computing, Game Development, and others. He also participates actively in Hackathons, Open Source Product Development and collaborates during ICT Community Meet-ups. His favorite genre in music is Reggae and music artist is Bob Marley.",
 					skills: [3],
-					company: "",
+					company: "IBM",
 					sm: {
 						fb: "https://www.facebook.com/anton.raphael.orpilla",
 						tw: "",
@@ -214,7 +200,7 @@
 					img: "kurt-acosta",
 					bio: "Kurt Renzo Acosta is an Android Developer who utilizes Google technologies in developing applications. He is currently an Information Technology student majoring in Software Development in the University of Baguio. He is also a student volunteer for Google Developer Group (GDG) Baguio and has led the Android Study Jams 2016 in Baguio City. In his free time, he likes to play the guitar, learn new technologies and play video games.",
 					skills: [0,2,3,5],
-					company: "",
+					company: "GDG Baguio",
 					sm: {
 						fb: "https://www.facebook.com/kurt.acosta",
 						tw: "",
@@ -236,6 +222,21 @@
 								gp: "",
 								li: "",
 								wb: "http://lynnettecaptures.com"
+							}
+						},
+						{
+						name: "Ben Adrian Sarmiento",
+						title: "Associate Manager in Accenture",
+						img: "ben-adrian-sarmiento",
+							bio: "Ben spends most of his time creating apps for Google Cloud Platform. Internet is oxygen to him.",
+							skills: [1],
+							company: "Accenture",
+					sm: {
+								fb: "https://www.facebook.com/bensarmiento",
+							tw: "https://twitter.com/bensarmiento",
+								gp: "https://plus.google.com/+BenAdrianSarmientoDev",
+								li: "https://ph.linkedin.com/in/bensarmiento",
+							wb: "https://bensarmiento.com/"
 							}
 						},
 //						{
@@ -422,111 +423,88 @@
 			schedule: [
 				{
 					bg: "includes/images/schedule/registration.jpg",
-					start: "0700",
+					start: "0800 AM",
 					desc: "Registration",
+					speaker: [],
+					duration: 60
+				},
+				{
+					// bg: "includes/images/schedule/games.jpg",
+					start: "0900 AM",
+					desc: "Keynote",
+					speaker: ["chelle-obligacion-gray"],
+					duration: 30
+				},
+				{
+					start: "0930 AM",
+					desc: "GDG Baguio Updates",
+					speaker: ["reymart-canuel"],
+					duration: 30
+				},
+				{
+					start: "1000 AM",
+					desc: "Talks and Demos",
 					speaker: [],
 					duration: 120
 				},
 				{
-					bg: "includes/images/schedule/games.jpg",
-					start: "0900",
-					desc: "Games/ Ice Breaker",
-					speaker: [],
-					duration: 20
-				},
-				{
-					start: "0920",
-					desc: "Welcome Remarks",
-					speaker: ["ralph-regalado"],
-					duration: 15
-				},
-				{
-					start: "0935",
-					desc: "Introduction to GDG Philippines",
-					speaker: ["jomar-tigcal"],
-					duration: 10
-				},
-				{
-					start: "0945",
-					desc: "Keynote",
-					speaker: ["sami-kizilbash"],
-					duration: 45
-				},
-				{
-					start: "1030",
-					desc: "Google Cloud Platform",
-					speaker: ["mete-atamel"],
-					duration: 45
-				},
-				{
-					start: "1115",
-					desc: "Show & Tell",
-					speaker: ["benj-tupas"],
-					duration: 45
-				},
-				{
 					bg: "includes/images/schedule/lunch.jpg",
-					start: "1200",
+					start: "1200 AM",
 					desc: "Lunch",
 					speaker: [],
 					duration: 60
 				},
 				{
-					start: "1300",
-					desc: "Sponsors Talk",
+					start: "0100 PM",
+					desc: "Codelabs",
 					speaker: [],
-					duration: 30
+					mentors: {
+						firebase: ["reymart-canuel", "brian-mamaril", "reymark-matabang"],
+						cloud: ["anton-orpilla", "ben-adrian-sarmiento"],
+						vr: ["jason-bruno"],
+						android: ["kurt-acosta"],
+						iot: ["lynnette-captures"]
+					},
+					duration: 180
 				},
 				{
-					start: "1330",
-					desc: "Beacon - Physical Web",
-					speaker: ["brian-tan-seng"],
-					duration: 45
-				},
-				{
-					start: "1415",
-					desc: "IoT Firebase",
-					speaker: ["reymart-canuel"],
-					duration: 45
-				},
-				{
-					start: "1500",
-					desc: "Machine Learning",
-					speaker: ["albert-padin"],
-					duration: 45
-				},
-				{
-					start: "1545",
-					desc: "Hackathon Presentation & Judging",
+					start: "0400 PM",
+					desc: "Snacks",
 					speaker: [],
-					duration: 75
+					duration: 15
 				},
 				{
-					bg: "includes/images/schedule/closing.jpg",
-					start: "1700",
+
+					start: "0415 PM",
 					desc: "Closing",
-					speaker: ["chelle-obligacion-gray"],
+					speaker: [],
+					duration: 15
+				},
+				{
+					start: "0430 PM",
+					desc: "Announcement of Winners in Codelabs",
+					speaker: [],
 					duration: 30
 				}
 			],
-			"parallel-activities": [
-				{
-					start: "0800",
-					desc: "Code Blaze Challenge",
-					judges: ["sami-kizilbash", "mete-atamel", "albert-padin", "Accenture"],
-					duration: 480
-				},
-				{
-					start: "0900",
-					desc: "Code your own: Codelabs (BYOD)",
-					mentors: {
-						firebase: ["joyce-guiao", "reymart-canuel"],
-						pwa: ["toni-jan-keith-monserrat", "wayne-manuel"],
-						vr: ["cristopher-david", "adrian-vincent-tayag"],
-						android: ["benj-tupas", "mac-valmores"],
-						cloud: ["albert-padin", "ben-adrian-sarmiento"]
-					},
-					duration: 480
-				}
-			]
+			// "parallel-activities": [
+			// 	{
+			// 		start: "0800",
+			// 		desc: "Code Blaze Challenge",
+			// 		judges: ["sami-kizilbash", "mete-atamel", "albert-padin", "Accenture"],
+			// 		duration: 480
+			// 	},
+			// 	{
+			// 		start: "0900",
+			// 		desc: "Code your own: Codelabs (BYOD)",
+			// 		mentors: {
+			// 			firebase: ["joyce-guiao", "reymart-canuel"],
+			// 			pwa: ["toni-jan-keith-monserrat", "wayne-manuel"],
+			// 			vr: ["cristopher-david", "adrian-vincent-tayag"],
+			// 			android: ["benj-tupas", "mac-valmores"],
+			// 			cloud: ["albert-padin", "ben-adrian-sarmiento"]
+			// 		},
+			// 		duration: 480
+			// 	}
+			// ]
 		}
