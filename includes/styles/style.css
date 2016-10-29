@@ -31,7 +31,7 @@ body {
     background-attachment: fixed; }
   .header .black-filter {
     position: absolute;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.5);
     top: 0px;
     left: 0px;
     width: 100%;
