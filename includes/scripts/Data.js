@@ -422,90 +422,56 @@
 			schedule: [
 				{
 					bg: "includes/images/schedule/registration.jpg",
-					start: "0700",
+					start: "0800",
 					desc: "Registration",
 					speaker: [],
-					duration: 120
+					duration: 60
 				},
 				{
-					bg: "includes/images/schedule/games.jpg",
+					// bg: "includes/images/schedule/games.jpg",
 					start: "0900",
-					desc: "Games/ Ice Breaker",
-					speaker: [],
-					duration: 20
-				},
-				{
-					start: "0920",
-					desc: "Welcome Remarks",
-					speaker: ["ralph-regalado"],
-					duration: 15
-				},
-				{
-					start: "0935",
-					desc: "Introduction to GDG Philippines",
-					speaker: ["jomar-tigcal"],
-					duration: 10
-				},
-				{
-					start: "0945",
 					desc: "Keynote",
-					speaker: ["sami-kizilbash"],
-					duration: 45
+					speaker: ["chelle-obligacion-gray"],
+					duration: 30
 				},
 				{
-					start: "1030",
-					desc: "Google Cloud Platform",
-					speaker: ["mete-atamel"],
-					duration: 45
+					start: "0930",
+					desc: "Welcome Remarks",
+					speaker: ["reymart-canuel"],
+					duration: 30
 				},
 				{
-					start: "1115",
-					desc: "Show & Tell",
-					speaker: ["benj-tupas"],
-					duration: 45
+					start: "1000",
+					desc: "Talks and Demos",
+					speaker: [""],
+					duration: 120
 				},
 				{
 					bg: "includes/images/schedule/lunch.jpg",
 					start: "1200",
 					desc: "Lunch",
-					speaker: [],
 					duration: 60
 				},
 				{
 					start: "1300",
-					desc: "Sponsors Talk",
-					speaker: [],
-					duration: 30
+					desc: "Codelabs",
+					duration: 180
 				},
 				{
-					start: "1330",
-					desc: "Beacon - Physical Web",
-					speaker: ["brian-tan-seng"],
-					duration: 45
+					start: "1600",
+					desc: "Snacks",
+					duration: 15
 				},
 				{
-					start: "1415",
-					desc: "IoT Firebase",
-					speaker: ["reymart-canuel"],
-					duration: 45
-				},
-				{
-					start: "1500",
-					desc: "Machine Learning",
-					speaker: ["albert-padin"],
-					duration: 45
-				},
-				{
-					start: "1545",
-					desc: "Hackathon Presentation & Judging",
-					speaker: [],
-					duration: 75
-				},
-				{
-					bg: "includes/images/schedule/closing.jpg",
-					start: "1700",
+
+					start: "1615",
 					desc: "Closing",
-					speaker: ["chelle-obligacion-gray"],
+					speaker: [],
+					duration: 15
+				},
+				{
+					start: "1630",
+					desc: "Announcement of Winners in Codelabs",
 					duration: 30
 				}
 			],
