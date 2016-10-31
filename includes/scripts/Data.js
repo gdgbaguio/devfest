@@ -494,7 +494,7 @@
 					desc: "Codelabs",
 					speaker: [],
 					mentors: {
-						firebase: ["reymart-canuel", "brian-mamaril", "reymark-matabang"],
+						firebase: ["trinmar-boado", "brian-mamaril", "reymark-matabang"],
 						cloud: ["anton-orpilla", "ben-adrian-sarmiento"],
 						vr: ["jason-bruno"],
 						android: ["kurt-acosta"],
