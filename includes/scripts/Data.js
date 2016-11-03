@@ -468,23 +468,35 @@
 					start: "0900 AM",
 					desc: "Keynote",
 					speaker: ["chelle-obligacion-gray"],
-					duration: 30
+					duration: 15
+				},
+				{
+					start: "0915 AM",
+					desc: "GDG Baguio Updates",
+					speaker: ["reymart-canuel"],
+					duration: 15
 				},
 				{
 					start: "0930 AM",
-					desc: "GDG Baguio Updates",
-					speaker: ["reymart-canuel"],
+					desc: "Google Cloud",
+					speaker: ["ben-adrian-sarmiento"],
+					duration: 45
+				},
+				{
+					start: "1015 AM",
+					desc: "Vision API Demo",
+					speaker: ["j"],
 					duration: 30
 				},
 				{
-					start: "1000 AM",
-					desc: "Talks and Demos",
-					speaker: [],
+					start: "1045 AM",
+					desc: "DOST OneLab Demo",
+					speaker: ["trinmar-boado"],
 					duration: 120
 				},
 				{
 					bg: "includes/images/schedule/lunch.jpg",
-					start: "1200 AM",
+					start: "1210 AM",
 					desc: "Lunch",
 					speaker: [],
 					duration: 60
