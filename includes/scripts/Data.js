@@ -165,11 +165,11 @@
 		},
 		{
 		name: "Ben Adrian Sarmiento",
-		title: "Associate Manager in Accenture",
+		title: "IT Team Lead in Carmudi",
 		img: "ben-adrian-sarmiento",
 			bio: "Ben spends most of his time creating apps for Google Cloud Platform. Internet is oxygen to him.",
 			skills: [1],
-			company: "Accenture",
+			company: "Carmudi",
 	sm: {
 				fb: "https://www.facebook.com/bensarmiento",
 			tw: "https://twitter.com/bensarmiento",
@@ -566,7 +566,7 @@
 				},
 				{
 					start: "1200 NN",
-					desc: "Mechanics for Codelabs",
+					desc: "Mechanics for Codelabs Challenge",
 					speaker: ["rara-valdez"],
 					duration: 10
 				},
@@ -611,6 +611,12 @@
 				}
 			],
 			"parallel-activities": [
+				{
+					start: "0900 AM",
+					desc: "Internet of Things and Devices Demo Booth",
+					speaker: ["lynnette-captures", "elvin"],
+					duration: "All day"
+				},
 				{
 					start: "1200 NN",
 					desc: "<b>Take home a photo</b><br/>Visit our photobooth at the plenary hall",

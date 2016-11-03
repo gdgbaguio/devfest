@@ -470,6 +470,8 @@ var App = {
 			return t;
 		},
 		getDuration: function(minutes) {
+			if(minutes === "All day")
+				return "All day";
 			var hour = 0;
 			if(minutes / 60 >= 1) {
 				hour = Math.floor(minutes / 60);
