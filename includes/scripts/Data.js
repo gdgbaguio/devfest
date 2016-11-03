@@ -165,11 +165,7 @@
 		},
 		{
 		name: "Ben Adrian Sarmiento",
-<<<<<<< HEAD
-		title: "IT Team Lead",
-=======
 		title: "IT Team Lead in Carmudi",
->>>>>>> 556f9e80e047397a077fcc264f1197399d5c5bb6
 		img: "ben-adrian-sarmiento",
 			bio: "Ben spends most of his time creating apps for Google Cloud Platform. Internet is oxygen to him.",
 			skills: [1],
