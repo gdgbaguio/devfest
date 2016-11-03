@@ -190,7 +190,23 @@
 								li: "",
 								wb: "http://lynnettecaptures.com"
 							}
-						},	{
+						},
+						{
+							name: "Jose Carlo Soriano",
+							title: "CEO of MagisSolutions, Founder of Sentiment 2.0 and Babel",
+							img: "jc",
+							bio: "JC is the CEO of a social enterprise software development company called MagisSolutions, which provides radically discounted services to NGOs, Foundations, social enterprises, and other cause-oriented organizations. He believes that software can change the lives of the marginalized for the better.",
+							skills: [1,2],
+							company: "MagisSolutions",
+							sm: {
+								fb: "https://www.facebook.com/josecarlosoriano",
+								tw: "https://twitter.com/jcs0riano",
+								gp: "",
+								li: "https://www.linkedin.com/in/jose-carlo-soriano-143b4549",
+								wb: "https://jcsoriano.com/"
+										}
+									},
+						{
 							name: "Jason Bruno",
 							title: "Head Trainer",
 							img: "jason-bruno",
@@ -247,7 +263,7 @@
 						tw: "",
 						gp: "https://plus.google.com/u/1/+ReymarkMatabang",
 						li: "",
-						wb: ""
+						wb: "https://rmmjava.github.io/"
 					}
 				},
 
