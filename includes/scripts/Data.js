@@ -222,6 +222,21 @@
 										}
 									},
 									{
+										name: "Josan Astrid Dometita",
+										title: "UI/UX Engineer",
+										img: "josan",
+										bio: "Josan Astrid Dometita is a UI/UX Engineer and the GDG Cagayan de Oro community manager. Her personal advocacy is inspiring more women to become a techmaker. Currently, she plays around with her Gemma Kit, a Do-It-Yourself wearable kit and travels to different places to share great things about it. Her Gemma codelab resource is publicly available in Github.",
+										skills: [3],
+										company: "",
+										sm: {
+											fb: "https://www.facebook.com/josanastrid",
+											tw: "https://twitter.com/josanastrid",
+											gp: "https://plus.google.com/u/0/+josanastrid",
+											li: "",
+											wb: "https://github.com/josanastrid"
+													}
+												},
+									{
 										name: "Kurt Renzo Acosta",
 										title: "Community Manager, Google Developer Group Baguio",
 										img: "kurt-acosta",
@@ -238,13 +253,13 @@
 									},
 									{
 										name: "Rara Valdez",
-										title: "Women Techmakers Baguio Lead",
+										title: "Women Techmakers Baguio Lead,SHS Animation Teacher, Freelance Graphic Artist",
 										img: "rara-valdez",
-										bio: "",
+										bio: "She worked as the graphic artist and animator at Baguio Tech Hour for a couple of years before going freelance,Teaching Animation at the University of the Cordilleras as a Senior High School and the Women Techmakers Baguio lead.",
 										skills: [],
-										company: "",
+										company: "University of the Cordilleras",
 										sm: {
-											fb: "",
+											fb: "https://www.facebook.com/richelalexandria.valdez",
 											tw: "",
 											gp: "",
 											li: "",
@@ -281,7 +296,21 @@
 						li: "https://ph.linkedin.com/in/rcanu",
 						wb: "http://www.rcanu.com/"
 					}
-				},
+				},{
+							name: "Toni-Jan Keith Monserrat",
+							title: "Front-end Web Developer",
+							img: "toni-jan-keith-monserrat",
+							bio: "Tatay, teacher, student, HCI researcher and Front-end web developer. His goal is to promote that we can make creative and effective interventions by thinking in-the-shoes of your users... creating good design...",
+							skills: [11,12],
+							company: "HCI Researcher",
+							sm: {
+								fb: "https://www.facebook.com/tjmonsi",
+								tw: "",
+								gp: "",
+								li: "https://ph.linkedin.com/in/toni-jan-keith-monserrat-42975341",
+								wb: ""
+							}
+						},
 				{
 					name: "Trinmar Boado",
 					title: "Web and Mobile Developer",
