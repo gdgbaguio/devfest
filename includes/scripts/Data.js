@@ -297,6 +297,21 @@
 						wb: ""
 					}
 				},
+				{
+					name: "Toni-Jan Keith Monserrat",
+					title: "Front-end Web Developer",
+					img: "toni-jan-keith-monserrat",
+					bio: "Tatay, teacher, student, HCI researcher and Front-end web developer. His goal is to promote that we can make creative and effective interventions by thinking in-the-shoes of your users... creating good design...",
+					skills: [11,12],
+					company: "HCI Researcher",
+					sm: {
+						fb: "https://www.facebook.com/tjmonsi",
+						tw: "",
+						gp: "",
+						li: "https://ph.linkedin.com/in/toni-jan-keith-monserrat-42975341",
+						wb: ""
+					}
+				}
 
 
 
@@ -410,21 +425,7 @@
 				// 		wb: ""
 				// 	}
 				// },
-		//		{
-			//		name: "Toni-Jan Keith Monserrat",
-			//		title: "Front-end Web Developer",
-			//		img: "toni-jan-keith-monserrat",
-				//	bio: "Tatay, teacher, student, HCI researcher and Front-end web developer. His goal is to promote that we can make creative and effective interventions by thinking in-the-shoes of your users... creating good design...",
-				//	skills: [11,12],
-			//		company: "HCI Researcher",
-			//		sm: {
-				//		fb: "https://www.facebook.com/tjmonsi",
-				//		tw: "",
-				//		gp: "",
-				//		li: "https://ph.linkedin.com/in/toni-jan-keith-monserrat-42975341",
-				//		wb: ""
-				//	}
-			//	},
+
 		//		{
 		//			name: "Wayne Manuel",
 		//			title: "Software Developer, National Telehealth Center UP Manila",
@@ -501,14 +502,32 @@
 				{
 					start: "1015 AM",
 					desc: "Vision API Demo",
-					speaker: ["j"],
+					speaker: ["jc"],
 					duration: 30
 				},
 				{
 					start: "1045 AM",
 					desc: "DOST OneLab Demo",
 					speaker: ["trinmar-boado"],
-					duration: 120
+					duration: 30
+				},
+				{
+					start: "1115 AM",
+					desc: "Polymer x PWA Live Coding",
+					speaker: ["toni-jan-keith-monserrat"],
+					duration: 30
+				},
+				{
+					start: "1145 AM",
+					desc: "E-Rx App Demo (Android Study Jams Finalist)",
+					speaker: ["ahmed-immam", "basil-satti"],
+					duration: 15
+				},
+				{
+					start: "1200 NN",
+					desc: "Mechanics for Codelabs",
+					speaker: ["rara-valdez"],
+					duration: 10
 				},
 				{
 					bg: "includes/images/schedule/lunch.jpg",
@@ -522,11 +541,11 @@
 					desc: "Codelabs",
 					speaker: [],
 					mentors: {
-						firebase: ["trinmar-boado", "brian-mamaril", "reymark-matabang"],
-						cloud: ["anton-orpilla", "ben-adrian-sarmiento"],
+						firebase: ["trinmar-boado", "reymart-canuel", "reymark-matabang"],
 						vr: ["jason-bruno"],
-						android: ["kurt-acosta"],
-						iot: ["lynnette-captures"]
+						android: ["kurt-acosta", "ahmed-immam", "basil-satti"],
+						pwa: ["toni-jan-keith-monserrat", "brian-mamaril"],
+						cloud: ["anton-orpilla", "ben-adrian-sarmiento", "jc"]
 					},
 					duration: 180
 				},
@@ -550,24 +569,24 @@
 					duration: 30
 				}
 			],
-			// "parallel-activities": [
-			// 	{
-			// 		start: "0800",
-			// 		desc: "Code Blaze Challenge",
-			// 		judges: ["sami-kizilbash", "mete-atamel", "albert-padin", "Accenture"],
-			// 		duration: 480
-			// 	},
-			// 	{
-			// 		start: "0900",
-			// 		desc: "Code your own: Codelabs (BYOD)",
-			// 		mentors: {
-			// 			firebase: ["joyce-guiao", "reymart-canuel"],
-			// 			pwa: ["toni-jan-keith-monserrat", "wayne-manuel"],
-			// 			vr: ["cristopher-david", "adrian-vincent-tayag"],
-			// 			android: ["benj-tupas", "mac-valmores"],
-			// 			cloud: ["albert-padin", "ben-adrian-sarmiento"]
-			// 		},
-			// 		duration: 480
-			// 	}
-			// ]
+			"parallel-activities": [
+				{
+					start: "1200 NN",
+					desc: "<b>Take home a photo</b><br/>Visit our photobooth at the plenary hall",
+					speaker: [],
+					duration: 60
+				},
+				{
+					start: "0300 PM",
+					desc: "Internet of Things",
+					speaker: ["josan"],
+					duration: 60
+				},
+				{
+					start: "0400 PM",
+					desc: "<b>Take home a photo</b><br/>Visit our photobooth at the plenary hall",
+					speaker: [],
+					duration: 60
+				}
+			]
 		}
