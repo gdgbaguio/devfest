@@ -545,7 +545,7 @@
 						vr: ["jason-bruno"],
 						android: ["kurt-acosta", "ahmed-immam", "basil-satti"],
 						pwa: ["toni-jan-keith-monserrat", "brian-mamaril"],
-						cloud: ["anton-orpilla", "ben-adrian-sarmiento", "jc"]
+						cloud: ["anton-orpilla", "ben-adrian-sarmiento"]
 					},
 					duration: 180
 				},
