@@ -342,15 +342,15 @@ var App = {
 						if(ci > 0)
 							$e.find(".speaker").append("<br>");
 						if(cd == "firebase") {
-							$e.find(".speaker").append("<b>Web (Firebase and PWA)</b><br><br>");
-						} else if(cd == "iot") {
-							$e.find(".speaker").append("<b>Internet of Things</b><br><br>");
+							$e.find(".speaker").append("<b>Firebase - Room M303</b><br><br>");
+						} else if(cd == "pwa") {
+							$e.find(".speaker").append("<b>Polymer and PWA - Room M306</b><br><br>");
 						} else if(cd == "vr") {
-							$e.find(".speaker").append("<b>Virtual Reality</b><br><br>")
+							$e.find(".speaker").append("<b>Virtual Reality - Room M304</b><br><br>")
 						} else if(cd == "android") {
-							$e.find(".speaker").append("<b>Android</b><br><br>");
+							$e.find(".speaker").append("<b>Android - Room M304</b><br><br>");
 						} else if(cd == "cloud") {
-							$e.find(".speaker").append("<b>Cloud (Machine Learning)</b><br><br>");
+							$e.find(".speaker").append("<b>Cloud (Machine Learning) - Room M305</b><br><br>");
 						}
 						$.each(data.mentors[cd], function(sk, sd) {
 							var speaker = App.getSpeakerData(sd);
