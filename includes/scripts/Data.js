@@ -311,7 +311,6 @@
 						wb: "https://rmmjava.github.io/"
 					}
 				},
-
 				{
 					name: "Reymart Canuel",
 					title: "Community Manager, Google Developer Group Baguio",
