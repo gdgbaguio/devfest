@@ -535,31 +535,36 @@
 					start: "0930 AM",
 					desc: "Google Cloud",
 					speaker: ["ben-adrian-sarmiento"],
-					duration: 45
+					duration: 45,
+					tech: ["Google App Engine", "NodeJS", "Machine Learning"]
 				},
 				{
 					start: "1015 AM",
 					desc: "Vision API Demo",
 					speaker: ["jc"],
-					duration: 30
+					duration: 30,
+					tech: ["Vision API"]
 				},
 				{
 					start: "1045 AM",
 					desc: "DOST OneLab Demo",
 					speaker: ["trinmar-boado"],
-					duration: 30
+					duration: 30,
+					tech: ["Google Maps", "AngularJS", "Firebase", "Material Design"]
 				},
 				{
 					start: "1115 AM",
 					desc: "Polymer x PWA Live Coding",
 					speaker: ["toni-jan-keith-monserrat"],
-					duration: 30
+					duration: 30,
+					tech: ["PolyFire", "Firebase"]
 				},
 				{
 					start: "1145 AM",
 					desc: "E-Rx App Demo (Android Study Jams Finalist)",
 					speaker: ["ahmed-immam", "basil-satti"],
-					duration: 15
+					duration: 15,
+					tech: ["Android", "Firebase"]
 				},
 				{
 					start: "1200 NN",
@@ -579,9 +584,9 @@
 					desc: "Codelabs",
 					speaker: [],
 					mentors: {
-						firebase: ["trinmar-boado", "reymart-canuel", "reymark-matabang"],
+						firebase: ["trinmar-boado", "basil-satti", "reymark-matabang"],
 						vr: ["jason-bruno"],
-						android: ["kurt-acosta", "ahmed-immam", "basil-satti"],
+						android: ["kurt-acosta", "ahmed-immam"],
 						pwa: ["toni-jan-keith-monserrat", "brian-mamaril"],
 						cloud: ["anton-orpilla", "ben-adrian-sarmiento", "sony-valdez"]
 					},

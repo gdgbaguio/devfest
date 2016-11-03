@@ -335,6 +335,15 @@ var App = {
 						"background-image": "url("+data.bg+")"
 					});
 				}
+				if(data.hasOwnProperty("tech")) {
+					if(data.tech.length > 1)
+						$e.find(".speaker").append("<br/><b>Technologies</b><br><br>");
+					else
+						$e.find(".speaker").append("<br/><b>Technology</b><br><br>");
+					$.each(data.tech, function(sk, sd) {
+						$e.find(".speaker").append('<span class="chip"><span>'+sd+'</span></span>');
+					})
+				}
 				if(data.hasOwnProperty("mentors")) {
 					var codelabs = ["firebase", "pwa", "vr", "android", "cloud"];
 					$e.find(".speaker").show();
