@@ -165,11 +165,11 @@
 		},
 		{
 		name: "Ben Adrian Sarmiento",
-		title: "Associate Manager in Accenture",
+		title: "IT Team Lead",
 		img: "ben-adrian-sarmiento",
 			bio: "Ben spends most of his time creating apps for Google Cloud Platform. Internet is oxygen to him.",
 			skills: [1],
-			company: "Accenture",
+			company: "Carmudi",
 	sm: {
 				fb: "https://www.facebook.com/bensarmiento",
 			tw: "https://twitter.com/bensarmiento",
@@ -211,7 +211,7 @@
 							title: "Education Supervisor II",
 							img: "lynnette-captures",
 							bio: "Christianne Lynnette \"Lynnette Captures\" Cabanban is from La Union. An educator, a public servant, tech enthusiast,frustrated artist, entrepreneur and occasional traveler.",
-							skills: [],
+							skills: [3],
 							company: "Commission on Higher Education",
 							sm: {
 								fb: "https://www.facebook.com/christianne.lynnette",
@@ -220,7 +220,21 @@
 								li: "",
 								wb: "http://lynnettecaptures.com"
 							}
-						},
+						},{
+							name: "Elvin E. Casem",
+							title: "Senior Web Developer and CEO of Evenly Ten Web Solutions and Think Tank Coworking Space",
+							img: "elvin",
+							bio: "Finalist, Philippine Web",
+							skills: [0,3],
+							company: "Evenly Ten Web Solutions and Think Tank Coworking Space",
+							sm: {
+								fb: "https://www.facebook.com/elvin.casem",
+								tw: "",
+								gp: "",
+								li: "",
+								wb: "http://www.elvincasem.com"
+										}
+									},
 						{
 							name: "Jose Carlo Soriano",
 							title: "CEO of MagisSolutions, Founder of Sentiment 2.0 and Babel",
@@ -301,7 +315,7 @@
 					title: "IT Educator, Freelance Developer",
 					img: "reymark-matabang",
 					bio: "Reymark Matabang is an IT Educator at STI College Baguio, He also a freelance Developer. ",
-					skills: [2,5],
+					skills: [2,5,6],
 					company: "STI College Baguio",
 					sm: {
 						fb: "https://www.facebook.com/rmmjava",
