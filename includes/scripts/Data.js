@@ -593,7 +593,7 @@
 				},
 				{
 					start: "0430 PM",
-					desc: "Announcement of Winners in Codelabs",
+					desc: "Announcements",
 					speaker: [],
 					duration: 30
 				}
