@@ -326,21 +326,7 @@
 						wb: ""
 					}
 				},
-				{
-					name: "Toni-Jan Keith Monserrat",
-					title: "Front-end Web Developer",
-					img: "toni-jan-keith-monserrat",
-					bio: "Tatay, teacher, student, HCI researcher and Front-end web developer. His goal is to promote that we can make creative and effective interventions by thinking in-the-shoes of your users... creating good design...",
-					skills: [11,12],
-					company: "HCI Researcher",
-					sm: {
-						fb: "https://www.facebook.com/tjmonsi",
-						tw: "",
-						gp: "",
-						li: "https://ph.linkedin.com/in/toni-jan-keith-monserrat-42975341",
-						wb: ""
-					}
-				}
+			
 
 
 
