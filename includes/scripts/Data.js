@@ -165,7 +165,11 @@
 		},
 		{
 		name: "Ben Adrian Sarmiento",
+<<<<<<< HEAD
 		title: "IT Team Lead",
+=======
+		title: "IT Team Lead in Carmudi",
+>>>>>>> 556f9e80e047397a077fcc264f1197399d5c5bb6
 		img: "ben-adrian-sarmiento",
 			bio: "Ben spends most of his time creating apps for Google Cloud Platform. Internet is oxygen to him.",
 			skills: [1],
@@ -580,7 +584,7 @@
 				},
 				{
 					start: "1200 NN",
-					desc: "Mechanics for Codelabs",
+					desc: "Mechanics for Codelabs Challenge",
 					speaker: ["rara-valdez"],
 					duration: 10
 				},
@@ -625,6 +629,12 @@
 				}
 			],
 			"parallel-activities": [
+				{
+					start: "0900 AM",
+					desc: "Internet of Things and Devices Demo Booth",
+					speaker: ["lynnette-captures", "elvin"],
+					duration: "All day"
+				},
 				{
 					start: "1200 NN",
 					desc: "<b>Take home a photo</b><br/>Visit our photobooth at the plenary hall",
