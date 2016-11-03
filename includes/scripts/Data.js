@@ -119,6 +119,21 @@
 		//			}
 		//		},
 		{
+			name: "Ahmed Mohammed Imam",
+			title: "Co-founder of E-RX",
+			img: "ahmed-immam",
+			bio: "Ahmed Mohammed Imam, Second year Computer Science Student in University of Cordilleras Major in Mobile Tech, Android Developer, and Co-founder of E-RX.",
+			skills: [0],
+			company: "E-RX",
+			sm: {
+				fb: "https://www.facebook.com/ahmed.imam49",
+				tw: "",
+				gp: "",
+				li: "",
+				wb: ""
+			}
+		},
+		{
 			name: "Anton Raphael Orpilla",
 			title: "Solutions Architect, Consultant & University Lecturer",
 			img: "anton-orpilla",
@@ -131,6 +146,21 @@
 				gp: "https://plus.google.com/+AntonRaphaelOrpilla",
 				li: "",
 				wb: ""
+			}
+		},
+		{
+		name: "Basil A. Satti",
+		title: "Co-founder of E-RX, Android & Web Developer",
+		img: "basil-satti",
+			bio: "Basil A. Satti , Second year BSIT , web developer admirer of google products specially Android & firebase , love travelling , basketball ..... sharing activities is a big passion for him.",
+			skills: [0,2],
+			company: "E-RX",
+	sm: {
+				fb: "https://www.facebook.com/ba.stt.1",
+			tw: "https://twitter.com/baselka",
+				gp: "",
+				li: "",
+			wb: ""
 			}
 		},
 		{
