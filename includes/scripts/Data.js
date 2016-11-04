@@ -649,7 +649,7 @@
 				},
 				{
 					start: "1200 NN",
-					desc: "<b>Take home a photo</b><br/>Visit our photobooth at the plenary hall",
+					desc: "<strong>Take home a photo</strong><br/>Visit our photobooth at the Auditorium",
 					speaker: [],
 					duration: 60
 				},
@@ -661,7 +661,7 @@
 				},
 				{
 					start: "0400 PM",
-					desc: "<b>Take home a photo</b><br/>Visit our photobooth at the plenary hall",
+					desc: "<strong>Take home a photo</strong><br/>Visit our photobooth at the Auditorium",
 					speaker: [],
 					duration: 60
 				}
