@@ -181,7 +181,7 @@
 			name: "Brian Matthew Mamaril",
 			title: "Front-end Engineer / Ninjaneer",
 			img: "brian-mamaril",
-			bio: "He is detail oriented team player. Organized, flexible and able to meet deadlines in a fast paced environment(Ninjaneer). ",
+			bio: "He is detail oriented team player. Organized, flexible and able to meet deadlines in a fast paced environment(Ninjaneer).",
 			skills: [11,12],
 			company: "New Media Services Pty Ltd",
 			sm: {
@@ -340,6 +340,22 @@
 						wb: "http://www.rcanu.com/"
 					}
 				},{
+							name: "Sony Valdez",
+							title: "Doctor",
+							img: "sony-valdez",
+							bio: "Sony Valdes is a Doctor, Programmer and Gamer",
+							skills: [],
+							company: "Python.Ph, IGDA Manila",
+							sm: {
+								fb: "https://www.facebook.com/SonyValdez",
+								tw: "",
+								gp: "",
+								li: "",
+								wb: ""
+							}
+						},
+
+				{
 							name: "Toni-Jan Keith Monserrat",
 							title: "Front-end Web Developer",
 							img: "toni-jan-keith-monserrat",
