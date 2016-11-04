@@ -181,7 +181,7 @@
 			name: "Brian Matthew Mamaril",
 			title: "Front-end Engineer / Ninjaneer",
 			img: "brian-mamaril",
-			bio: "University of the Cordilleras 2013",
+			bio: "He is detail oriented team player. Organized, flexible and able to meet deadlines in a fast paced environment(Ninjaneer). ",
 			skills: [11,12],
 			company: "New Media Services Pty Ltd",
 			sm: {
