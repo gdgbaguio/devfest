@@ -344,7 +344,7 @@
 							title: "Doctor",
 							img: "sony-valdez",
 							bio: "Sony Valdes is a Doctor, Programmer and Gamer",
-							skills: [],
+							skills: [1,3,13],
 							company: "Python.Ph, IGDA Manila",
 							sm: {
 								fb: "https://www.facebook.com/SonyValdez",
