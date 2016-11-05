@@ -589,7 +589,7 @@
 				},
 				{
 					start: "1145 AM",
-					desc: "E-Rx App Demo (Android Study Jams Finalist)",
+					desc: "E-Rx App Demo (Android Masters Finalist)",
 					speaker: ["ahmed-immam", "basil-satti"],
 					duration: 15,
 					tech: ["Android", "Firebase"]
@@ -622,16 +622,9 @@
 				},
 				{
 					start: "0400 PM",
-					desc: "Snacks",
-					speaker: [],
-					duration: 15
-				},
-				{
-
-					start: "0415 PM",
 					desc: "Closing",
 					speaker: [],
-					duration: 15
+					duration: 30
 				},
 				{
 					start: "0430 PM",
