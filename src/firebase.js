@@ -1,6 +1,6 @@
 
     let firebase = null;
-    const configs = [{"apiKey":"AIzaSyB3VQN0MNOxcunaUKXZr54u0t6ruv2YbkE","authDomain":"devfestph.firebaseapp.com","databaseURL":"https://devfestph.firebaseio.com","projectId":"devfestph","storageBucket":"devfestph.appspot.com","messagingSenderId":"36335134103"}];
+    const configs = [{"apiKey":"AIzaSyB1jjieU2s4InmIu8OWg8Twv208gqcTou8","authDomain":"devfest-baguio.firebaseapp.com","databaseURL":"https://devfest-baguio.firebaseio.com","projectId":"devfest-baguio","storageBucket":"devfest-baguio.appspot.com","messagingSenderId":"179728411100"}];
     import(/* webpackChunkName: 'firebase' */ 'firebase').then(sdk => {
       firebase = sdk;
       configs.forEach(config => {
@@ -16,4 +16,3 @@
     const firebaseConfig = configs;
     export default firebase;
     export { firebaseConfig };
-  
