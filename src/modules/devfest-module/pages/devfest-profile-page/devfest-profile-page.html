@@ -1,0 +1,142 @@
+<dom-module id="devfest-profile-page">
+  <template>
+    <link rel="stylesheet" href="./devfest-profile-page.scss">
+
+    <section class="section">
+      <div class="row">
+        <div id="profile-image" class="avatar"></div>
+
+        <div class="flex">
+          <h1 class="title">[[profile.displayName]]</h1>
+
+          <template is="dom-if" if="[[profile.score]]">
+            <p class="score">
+              Score: [[profile.score]]
+            </p>
+          </template>
+        </div>
+      </div>
+      <template is="dom-if" if="[[_getMoreLinksNumber(user.providerData)]]">
+        <h3 class="title">Link Accounts</h3>
+        <div class="row">
+          <template is="dom-repeat" items="[[_getMoreLinks(user.providerData)]]">
+            <devfest-button-only class="button button-row" class-name="[[_getProvider(item.providerId)]]" id="[[_getProvider(item.providerId)]]" on-tap="link">
+              <div class="brow">
+                <div class=" right">
+                  <iron-icon class="icon" icon="devfest:[[_getProviderIcon(item.providerId)]]"></iron-icon>
+                </div>
+                <div class=" left">
+                  [[_getProviderName(item.providerId)]]
+                </div>
+              </div>
+            </devfest-button-only>
+          </template>
+        </div>
+      </template>
+
+      <h3 class="title">Unlink Accounts</h3>
+      <p>
+        Note: Unlinking your Github account will reset your score.
+      </p>
+      <div class="row">
+        <template is="dom-repeat" items="[[user.providerData]]">
+          <devfest-button-only class="button button-row" class-name="[[_getProvider(item.providerId)]]" id="[[_getProvider(item.providerId)]]" on-tap="unlinkDialog">
+            <div class="brow">
+              <div class=" right">
+                <iron-icon class="icon" icon="devfest:[[_getProviderIcon(item.providerId)]]"></iron-icon>
+              </div>
+              <div class=" left">
+                [[_getProviderName(item.providerId)]]
+              </div>
+            </div>
+          </devfest-button-only>
+        </template>
+      </div>
+
+      <template is="dom-if" if="[[!profile.ticketNumber]]">
+        <h3 class="title">Link Ticket</h3>
+        <p>
+          Connect your ticket to qualify to the codelabs contest and to join to the event raffle.
+        </p>
+        <p>
+          By connecting your ticket, you agree to the <a href="/tnc">terms and conditions.</a>
+        </p>
+        <a href="/connect-ticket">
+          <devfest-button-only class="button">
+            Link your Eventbrite Ticket
+          </devfest-button-only>
+        </a>
+      </template>
+
+      <template is="dom-if" if="[[profile.ticketNumber]]">
+        <h3 class="title">Ticket Connected</h3>
+        <div class="text-area">
+          <p>
+            <b>Ticket#:</b> [[profile.ticketNumber]]<br>
+            <b>Name:</b> [[profile.ticketName]]<br/>
+            <b>Email: </b> [[profile.ticketEmail]]
+          </p>
+
+          <p>
+            If your name and email is different from the one above, you may have scanned a wrong ticket. You can rescan it here.
+          </p>
+          <a href="/connect-ticket">
+            <devfest-button-only class="button">
+              Rescan you eventbrite ticket.
+            </devfest-button-only>
+          </a>
+          <br/>
+          <devfest-button-only on-tap="disconnectDialog" class="button">
+            Disconnect Ticket.
+          </devfest-button-only>
+
+        </div>
+      </template>
+
+      <template is="dom-if" if="[[profile.sponsorId]]">
+        <h3 class="title">Welcome Sponsor!</h3>
+
+        <a href="/are-you-a-sponsor">
+          <devfest-button-only class="button">
+            Go to Sponsor page
+          </devfest-button-only>
+        </a>
+      </template>
+
+    </section>
+
+    <devfest-footer></devfest-footer>
+
+    <paper-dialog id="disconnect-dialog" class="dialog-box">
+      <div class="dialog-container">
+        <p>
+          Are you sure you want to disconnect your ticket from your account? (You will not be eligible to be part of the raffle prizes and will reset your score)
+        </p>
+
+        <devfest-button-only on-tap="_disconnect" class="button">
+          Disconnect Ticket.
+        </devfest-button-only>
+        <br/>
+        <devfest-button-only on-tap="_closeDisconnectDialog" class="button">
+          Cancel
+        </devfest-button-only>
+      </div>
+    </paper-dialog>
+
+    <paper-dialog id="unlink-dialog" class="dialog-box">
+      <div class="dialog-container">
+        <p>
+          Are you sure you want to unlink [[_unlinkId]] from your account? (You will not be eligible to be part of the raffle prizes and will reset your score)
+        </p>
+
+        <devfest-button-only on-tap="unlink" class="button">
+          Disconnect [[_unlinkId]]
+        </devfest-button-only>
+        <br/>
+        <devfest-button-only on-tap="_closeUnlinkDialog" class="button">
+          Cancel
+        </devfest-button-only>
+      </div>
+    </paper-dialog>
+  </template>
+</dom-module>

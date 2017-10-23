@@ -1,0 +1,188 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "rewrites": [
+      {
+        "source": "/connect",
+        "function": "connect"
+      },
+      {
+        "source": "/validate-sponsor",
+        "function": "validate"
+      },
+      {
+        "source": "/scan-id",
+        "function": "scanId"
+      },
+      {
+        "source": "/disconnect",
+        "function": "disconnect"
+      },
+      {
+        "source": "/scanned-list-for-sponsor",
+        "function": "scannedList"
+      },
+      {
+        "source": "/submit-repo",
+        "function": "submitRepo"
+      },
+      {
+        "source": "/",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/index.html",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/speakers",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/speakers/**",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/sessions",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/sessions/**",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/tickets",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/sponsors",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/tnc",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/login",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/profile",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/codelabs/**/**/**",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/codelabs/**/**",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/codelabs/**",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/codelabs",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/connect-ticket",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/scan",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/scanned-list",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/are-you-a-sponsor",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/auth-check",
+        "destination": "/index.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(jpg|jpeg|gif|png)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=7200"
+          }
+        ]
+      },
+      {
+        "source": "404.html",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=300"
+          }
+        ]
+      },
+      {
+        "source": "service-worker.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          }
+        ]
+      },
+      {
+        "source": "routing-sw-src.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          }
+        ]
+      },
+      {
+        "source": "routing-sw.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          }
+        ]
+      },
+      {
+        "source": "sw.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          }
+        ]
+      },
+      {
+        "source": "workbox-routing.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          }
+        ]
+      },
+      {
+        "source": "workbox-sw.*.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          }
+        ]
+      }
+    ],
+    "public": "./dist/public"
+  }
+}

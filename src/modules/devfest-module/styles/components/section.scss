@@ -1,0 +1,42 @@
+.section {
+  text-align: center;
+  padding: 36px;
+  padding-bottom: 96px;
+
+  @media only screen and (max-width: 500px) {
+    padding: 20px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+
+  .section-layout {
+    @apply --layout-horizontal;
+    @apply --layout-wrap;
+  }
+}
+
+.blue.section {
+  background-color: #2196f3;
+  color: #fff;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+  }
+}
+
+.gray.section {
+  background-color: #fafafa;
+}
+
+.section iron-icon {
+  height: 96px;
+  width: 96px;
+}
+
+.section iron-icon {
+  --iron-icon-height: 96px;
+  --iron-icon-width: 96px;
+}

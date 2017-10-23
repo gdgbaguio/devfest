@@ -1,0 +1,55 @@
+<dom-module id="devfest-scanned-list-page">
+  <template>
+    <link rel="stylesheet" href="./devfest-scanned-list-page.scss">
+
+    <section class="section">
+      <h2 class="title">List for attendees scanned by: [[profile.sponsorId]]</h2>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th class="hide-on-small">
+              Name
+            </th>
+            <th>
+              Email
+            </th>
+            <th>
+              Scanned by
+            </th>
+            <th class="hide-on-small">
+              Scanned date
+            </th>
+          </tr>
+        </thead>
+        <tbody class="table-body">
+          <template is="dom-repeat" items="[[scanned]]">
+            <tr class="table-row">
+              <td class="table-cell hide-on-small">
+                [[item.displayName]]
+              </td>
+              <td class="table-cell make-small">
+                [[item.email]]
+              </td>
+              <td class="table-cell make-small">
+                [[item.scannedBy]]
+              </td>
+              <td class="table-cell hide-on-small">
+                [[_renderDate(item.dateScanned)]]
+              </td>
+            </tr>
+          </template>
+        </tbody>
+      </table>
+
+      <a href="/are-you-a-sponsor">
+        <devfest-button-only>
+            Go back
+        </devfest-button-only>
+      </a>
+    </section>
+
+    <devfest-footer></devfest-footer>
+
+  </template>
+</dom-module>

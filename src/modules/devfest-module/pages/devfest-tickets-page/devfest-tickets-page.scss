@@ -1,0 +1,83 @@
+@import '../../styles/components/host.scss';
+@import '../../styles/components/typography.scss';
+@import '../../styles/components/section.scss';
+
+
+.perk {
+  padding: 36px;
+  min-width: 500px;
+  @apply --layout-flex;
+
+  @media only screen and (max-width: 800px) {
+    min-width: 250px;
+  }
+
+  @media only screen and (max-width: 500px) {
+    padding: 20px;
+  }
+}
+
+.online-option {
+  padding: 36px;
+  min-width: 250px;
+  @apply --layout-flex;
+
+  @media only screen and (max-width: 500px) {
+    padding: 20px;
+  }
+}
+
+.payment-option {
+  padding: 36px;
+  min-width: 250px;
+  @apply --layout-flex;
+
+  @media only screen and (max-width: 500px) {
+    padding: 20px;
+  }
+
+  p {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  table {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+
+    tr {
+      td {
+        width: 50%;
+        padding-bottom: 20px;
+      }
+      td:first-of-type {
+        padding-right: 20px;
+        font-weight: 700;
+      }
+
+      td:last-of-type {
+        padding-left: 20px;
+      }
+    }
+  }
+
+  table:first-of-type {
+    padding-top: 20px;
+  }
+
+  table:last-of-type {
+    padding-top: 40px;
+  }
+
+  table:last-of-type {
+    tr {
+      td:first-of-type {
+        width: 40%;
+      }
+      td:last-of-type {
+        width: 60%;
+      }
+    }
+  }
+}

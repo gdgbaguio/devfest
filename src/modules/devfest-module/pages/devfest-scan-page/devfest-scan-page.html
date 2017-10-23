@@ -1,0 +1,29 @@
+<dom-module id="devfest-scan-page">
+  <template>
+    <link rel="stylesheet" href="./devfest-scan-page.scss">
+
+    <section class="section qr-section">
+      <p>
+        You need a camera for this: (might not work for iPhone/iOS users)...<br>
+        Scan the ticket here:
+      </p>
+      <video id="video" autoplay>
+
+      </video><br/>
+      <!-- <div class="scan-section">
+
+      </div> -->
+
+
+      <devfest-button-only on-tap="goBack">
+        Go back
+      </devfest-button-only>
+
+    </section>
+
+    <canvas id="canvas"></canvas>
+
+    <devfest-footer></devfest-footer>
+
+  </template>
+</dom-module>

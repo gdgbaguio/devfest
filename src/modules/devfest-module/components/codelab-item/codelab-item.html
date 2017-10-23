@@ -1,0 +1,31 @@
+<dom-module id="codelab-item">
+  <template>
+    <link rel="stylesheet" href="./codelab-item.scss">
+
+    <section class="item">
+      <div class$="header [[type]]-header">
+        <div class="image">
+          <img src="/images/codelabs/[[image]]" class="icon">
+        </div>
+
+        <div class="score">
+          [[score]]
+        </div>
+      </div>
+      <div class="body">
+        <h3>
+          [[title]]
+        </h3>
+      </div>
+      <hr>
+      <div class="footer">
+        <a href="/codelabs/exer/[[codelabId]]/page-01" class="anchor">
+          <devfest-button-only>
+            Start Here
+          </devfest-button-only>
+        </a>
+      </div>
+    </section>
+
+  </template>
+</dom-module>

@@ -1,0 +1,27 @@
+<dom-module id="devfest-drawer">
+  <template>
+    <link rel="stylesheet" href="./devfest-drawer.scss">
+
+    <app-drawer>
+      <app-header fixed>
+        <app-toolbar>
+          <gdg-logo colored on-tap="closeDrawer"></gdg-logo>
+        </app-toolbar>
+      </app-header>
+      <div class="links">
+        <template is="dom-repeat" items="[[menu]]">
+          <devfest-button no-color="[[item.attributes.noColor]]" href="[[item.href]]" on-tap="closeDrawer">[[item.text]]</devfest-button>
+        </template>
+
+        <template is="dom-if" if="[[user.uid]]">
+          <devfest-button no-color href="/codelabs" on-tap="closeDrawer">Codelabs</devfest-button>
+          <devfest-button no-color href="/profile" on-tap="closeDrawer">Profile</devfest-button>
+          <devfest-button on-tap="logout">Logout</devfest-button>
+        </template>
+
+        <template is="dom-if" if="[[!user.uid]]">
+          <devfest-button href="/login" on-tap="closeDrawer">Login</devfest-button>
+        </template>
+      </div>
+  </template>
+</dom-module>
