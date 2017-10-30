@@ -101,8 +101,6 @@ class DevfestLandingPage extends contentLoaderMixin(Polymer.Element) {
       } else if (small) {
         map.latitude = 16.408788;
         map.longitude = 120.597830;
-      } else {
-
       }
     }
   }
